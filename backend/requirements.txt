@@ -1,0 +1,13 @@
+fastapi==0.139.2
+uvicorn[standard]==0.51.0
+motor==3.7.1
+pymongo==4.17.0
+python-jose[cryptography]==3.5.0
+bcrypt==5.0.0
+python-multipart==0.0.32
+httpx==0.28.1
+shapely==2.1.2
+apscheduler==3.11.3
+python-socketio==5.16.3
+python-dotenv==1.2.2
+pydantic[email]==2.13.4
