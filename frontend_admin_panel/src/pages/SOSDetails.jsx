@@ -1,10 +1,21 @@
-import { useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle, useMap } from 'react-leaflet'
 import Sidebar from '../components/Sidebar'
 import TopNav from '../components/TopNav'
 import { useAdmin } from '../AdminContext.jsx'
+import { geocodeLocation } from '../utils/geocode.js'
 import './Monitoring.css'
+
+function MapCenter({ center }) {
+  const map = useMap()
+  useEffect(() => {
+    if (center) {
+      map.setView(center, 14)
+    }
+  }, [center, map])
+  return null
+}
 
 function SOSDetails() {
   const { id } = useParams()
@@ -13,6 +24,32 @@ function SOSDetails() {
   const alert = sosAlerts.find(a => a.id === id)
   const [assignee, setAssignee] = useState(alert?.assignedTo || '')
   const [toast, setToast] = useState('')
+  const [resolvedPosition, setResolvedPosition] = useState(null)
+  const [lookupStatus, setLookupStatus] = useState('')
+
+  const mapCenter = useMemo(() => resolvedPosition || [alert?.lat || 11.5, alert?.lng || 76.67], [alert?.lat, alert?.lng, resolvedPosition])
+
+  useEffect(() => {
+    let cancelled = false
+    if (!alert) return
+
+    const runLookup = async () => {
+      setLookupStatus('Resolving map location…')
+      const result = await geocodeLocation(alert.location)
+      if (!cancelled && result) {
+        setResolvedPosition([result.lat, result.lng])
+        setLookupStatus('Location resolved from place name')
+      } else if (!cancelled) {
+        setResolvedPosition([alert.lat, alert.lng])
+        setLookupStatus('Using saved coordinates')
+      }
+    }
+
+    runLookup()
+    return () => {
+      cancelled = true
+    }
+  }, [alert])
 
   if (!alert) {
     return (
@@ -103,10 +140,12 @@ function SOSDetails() {
 
             <div className="card details-map-card">
               <h3>🗺️ Live Location Map</h3>
-              <MapContainer center={[alert.lat, alert.lng]} zoom={14} className="leaflet-map-container small">
+              <div className="loc-trail" style={{ marginBottom: 8 }}>{lookupStatus}</div>
+              <MapContainer center={mapCenter} zoom={14} className="leaflet-map-container small">
                 <TileLayer attribution='&copy; OpenStreetMap' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                <Circle center={[alert.lat, alert.lng]} radius={500} pathOptions={{ color: '#ef4444', fillColor: '#ef4444', fillOpacity: 0.18, weight: 2 }} />
-                <Marker position={[alert.lat, alert.lng]}>
+                <MapCenter center={mapCenter} />
+                <Circle center={mapCenter} radius={500} pathOptions={{ color: '#ef4444', fillColor: '#ef4444', fillOpacity: 0.18, weight: 2 }} />
+                <Marker position={mapCenter}>
                   <Popup>
                     <strong>{alert.touristName}</strong><br />
                     SOS: {alert.id}<br />

@@ -1,9 +1,18 @@
-import { useState } from 'react'
-import { MapContainer, TileLayer, Circle, Marker, Popup } from 'react-leaflet'
+import { useEffect, useMemo, useState } from 'react'
+import { MapContainer, TileLayer, Circle, Marker, Popup, useMapEvents } from 'react-leaflet'
 import Sidebar from '../components/Sidebar'
 import TopNav from '../components/TopNav'
 import { useAdmin } from '../AdminContext.jsx'
 import './ZoneManagement.css'
+
+function MapClickHandler({ onClick }) {
+  useMapEvents({
+    click: (event) => {
+      onClick(event.latlng)
+    }
+  })
+  return null
+}
 
 const defaultCenter = [11.5000, 76.6700]
 
@@ -19,6 +28,7 @@ function ZoneManagement() {
   const { zones, addZone, updateZone, deleteZone } = useAdmin()
   const [toast, setToast] = useState('')
   const [editingId, setEditingId] = useState(null)
+  const [selectedPosition, setSelectedPosition] = useState(null)
 
   const [form, setForm] = useState({
     name: '', type: 'Landslide area',
@@ -29,7 +39,17 @@ function ZoneManagement() {
   const showToast = (m) => { setToast(m); setTimeout(() => setToast(''), 2200) }
   const updateField = (k, v) => setForm(f => ({ ...f, [k]: v }))
 
-  const resetForm = () => setForm({ name: '', type: 'Landslide area', lat: '11.4500', lng: '76.6000', radius: '600', status: 'Active', color: 'red' })
+  const resetForm = () => {
+    setForm({ name: '', type: 'Landslide area', lat: '11.4500', lng: '76.6000', radius: '600', status: 'Active', color: 'red' })
+    setSelectedPosition(null)
+    setEditingId(null)
+  }
+
+  const handleMapPick = (latlng) => {
+    setSelectedPosition([latlng.lat, latlng.lng])
+    setForm((prev) => ({ ...prev, lat: latlng.lat.toFixed(4), lng: latlng.lng.toFixed(4) }))
+    showToast('📍 Position selected on map')
+  }
 
   const handleAdd = () => {
     if (!form.name.trim() || !form.lat || !form.lng) {
@@ -52,6 +72,7 @@ function ZoneManagement() {
 
   const startEdit = (z) => {
     setEditingId(z.id)
+    setSelectedPosition([z.lat, z.lng])
     setForm({ name: z.name, type: z.type, lat: String(z.lat), lng: String(z.lng), radius: String(z.radius), status: z.status, color: z.color })
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -75,7 +96,7 @@ function ZoneManagement() {
   const handleDelete = (id) => {
     const z = zones.find(x => x.id === id)
     deleteZone(id)
-    if (editingId === id) { setEditingId(null); resetForm() }
+    if (editingId === id) { resetForm() }
     showToast(`🗑️ Zone "${z?.name}" removed`)
   }
 
@@ -146,7 +167,7 @@ function ZoneManagement() {
                   {editingId
                     ? <>
                         <button className="btn btn-primary" onClick={handleUpdate}>💾 Save Changes</button>
-                        <button className="btn btn-outline" onClick={() => { setEditingId(null); resetForm() }}>✕ Cancel Edit</button>
+                        <button className="btn btn-outline" onClick={resetForm}>✕ Cancel Edit</button>
                       </>
                     : <button className="btn btn-primary btn-block" onClick={handleAdd}>➕ Add Zone &amp; Push Instant Alert</button>
                   }
@@ -184,6 +205,12 @@ function ZoneManagement() {
             </div>
             <MapContainer center={defaultCenter} zoom={9} className="leaflet-map-container">
               <TileLayer attribution='&copy; OpenStreetMap' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <MapClickHandler onClick={handleMapPick} />
+              {selectedPosition && (
+                <Marker position={selectedPosition}>
+                  <Popup>Selected point for current zone</Popup>
+                </Marker>
+              )}
               {zones.map(z => {
                 const c = colorsForType(z.type)
                 return (

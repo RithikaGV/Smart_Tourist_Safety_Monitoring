@@ -1,10 +1,21 @@
-import { useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
-import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Circle, useMap } from 'react-leaflet'
 import Sidebar from '../components/Sidebar'
 import TopNav from '../components/TopNav'
 import { useAdmin } from '../AdminContext.jsx'
+import { geocodeLocation } from '../utils/geocode.js'
 import './Monitoring.css'
+
+function MapCenter({ center }) {
+  const map = useMap()
+  useEffect(() => {
+    if (center) {
+      map.setView(center, 14)
+    }
+  }, [center, map])
+  return null
+}
 
 function EFIRDetails() {
   const { id } = useParams()
@@ -14,6 +25,32 @@ function EFIRDetails() {
   const [assignee, setAssignee] = useState(report?.assignedTo || '')
   const [copied, setCopied] = useState(false)
   const [toast, setToast] = useState('')
+  const [resolvedPosition, setResolvedPosition] = useState(null)
+  const [lookupStatus, setLookupStatus] = useState('')
+
+  const mapCenter = useMemo(() => resolvedPosition || [report?.lat || 11.5, report?.lng || 76.67], [report?.lat, report?.lng, resolvedPosition])
+
+  useEffect(() => {
+    let cancelled = false
+    if (!report) return
+
+    const runLookup = async () => {
+      setLookupStatus('Resolving map location…')
+      const result = await geocodeLocation(report.location)
+      if (!cancelled && result) {
+        setResolvedPosition([result.lat, result.lng])
+        setLookupStatus('Location resolved from place name')
+      } else if (!cancelled) {
+        setResolvedPosition([report.lat, report.lng])
+        setLookupStatus('Using saved coordinates')
+      }
+    }
+
+    runLookup()
+    return () => {
+      cancelled = true
+    }
+  }, [report])
 
   if (!report) {
     return (
@@ -132,10 +169,12 @@ function EFIRDetails() {
 
             <div className="card details-map-card">
               <h3>🗺️ Incident Location Map</h3>
-              <MapContainer center={[report.lat, report.lng]} zoom={14} className="leaflet-map-container small">
+              <div className="loc-trail" style={{ marginBottom: 8 }}>{lookupStatus}</div>
+              <MapContainer center={mapCenter} zoom={14} className="leaflet-map-container small">
                 <TileLayer attribution='&copy; OpenStreetMap' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                <Circle center={[report.lat, report.lng]} radius={400} pathOptions={{ color: '#6366f1', fillColor: '#6366f1', fillOpacity: 0.18, weight: 2 }} />
-                <Marker position={[report.lat, report.lng]}>
+                <MapCenter center={mapCenter} />
+                <Circle center={mapCenter} radius={400} pathOptions={{ color: '#6366f1', fillColor: '#6366f1', fillOpacity: 0.18, weight: 2 }} />
+                <Marker position={mapCenter}>
                   <Popup>
                     <strong>{report.incidentType}</strong><br />
                     FIR: {report.firCopyRef}<br />
