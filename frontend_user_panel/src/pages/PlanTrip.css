@@ -1,0 +1,84 @@
+.plan-trip-card {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--clay-primary);
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  border-radius: var(--clay-radius-pill);
+  background: var(--clay-surface-card);
+  box-shadow:
+    5px 5px 12px var(--clay-shadow-dark),
+    -5px -5px 12px var(--clay-shadow-light);
+  transition: all 0.25s ease;
+}
+
+.back-link:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    7px 7px 16px var(--clay-shadow-dark),
+    -7px -7px 16px var(--clay-shadow-light);
+}
+
+.back-link:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 4px 4px 10px var(--clay-shadow-dark),
+    inset -4px -4px 10px var(--clay-shadow-light);
+}
+
+.plan-trip-form .form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin-bottom: 24px;
+}
+
+.plan-trip-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.plan-trip-form .form-group label {
+  font-weight: 700;
+  color: var(--clay-text-light);
+  font-size: 13px;
+  padding-left: 6px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.plan-trip-form .form-group input,
+.plan-trip-form .form-group select {
+  padding: 14px 18px;
+  border: none;
+  border-radius: var(--clay-radius-md);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--clay-surface);
+  color: var(--clay-text);
+  box-shadow:
+    inset 5px 5px 12px var(--clay-shadow-dark-2),
+    inset -5px -5px 12px var(--clay-shadow-light);
+  transition: all 0.25s ease;
+  font-family: inherit;
+}
+
+.plan-trip-form .form-group input:focus,
+.plan-trip-form .form-group select:focus {
+  outline: none;
+  box-shadow:
+    inset 6px 6px 16px var(--clay-shadow-dark),
+    inset -6px -6px 16px var(--clay-shadow-light),
+    0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.mt-4 {
+  margin-top: 20px;
+}

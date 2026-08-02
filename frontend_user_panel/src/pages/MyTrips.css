@@ -1,0 +1,118 @@
+.back-link {
+  display: inline-block;
+  color: var(--clay-primary);
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  border-radius: var(--clay-radius-pill);
+  background: var(--clay-surface-card);
+  box-shadow:
+    5px 5px 12px var(--clay-shadow-dark),
+    -5px -5px 12px var(--clay-shadow-light);
+  transition: all 0.25s ease;
+}
+
+.back-link:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    7px 7px 16px var(--clay-shadow-dark),
+    -7px -7px 16px var(--clay-shadow-light);
+}
+
+.back-link:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 4px 4px 10px var(--clay-shadow-dark),
+    inset -4px -4px 10px var(--clay-shadow-light);
+}
+
+.trips-section-title {
+  margin: 32px 0 22px;
+  font-size: 26px;
+  color: var(--clay-text);
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.trip-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    14px 14px 32px var(--clay-shadow-dark),
+    -14px -14px 32px var(--clay-shadow-light);
+}
+
+.trip-link {
+  text-decoration: none;
+  flex: 1;
+}
+
+.trip-link h3 {
+  color: var(--clay-text);
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.trip-date {
+  color: var(--clay-text-light);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.trip-travelers {
+  color: var(--clay-text);
+  font-size: 14px;
+  margin-top: 6px;
+  font-weight: 500;
+  padding: 6px 14px;
+  display: inline-block;
+  background: var(--clay-surface);
+  border-radius: var(--clay-radius-pill);
+  box-shadow:
+    inset 2px 2px 6px var(--clay-shadow-dark-2),
+    inset -2px -2px 6px var(--clay-shadow-light);
+}
+
+.trip-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.btn-small {
+  padding: 10px 20px !important;
+  font-size: 14px !important;
+}
+
+.btn-danger {
+  background: linear-gradient(145deg, #fca5a5 0%, #ef4444 100%);
+  color: white;
+  box-shadow:
+    6px 6px 14px #fecaca,
+    -6px -6px 14px #ffffff,
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    8px 8px 18px #fecaca,
+    -8px -8px 18px #ffffff,
+    inset 2px 2px 4px rgba(255, 255, 255, 0.3);
+}

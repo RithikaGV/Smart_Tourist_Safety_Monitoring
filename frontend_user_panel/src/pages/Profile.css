@@ -1,0 +1,194 @@
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-top: 20px;
+}
+
+.profile-header h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--clay-text);
+  letter-spacing: 0.3px;
+}
+
+.profile-card {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.profile-avatar-large {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 24px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #e0e7ff 0%, #c7d2fe 100%);
+  box-shadow:
+    10px 10px 24px var(--clay-shadow-dark),
+    -10px -10px 24px var(--clay-shadow-light),
+    inset 4px 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.profile-info-section {
+  margin-bottom: 36px;
+}
+
+.section-title {
+  font-size: 22px;
+  color: var(--clay-text);
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--clay-border);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-item label {
+  font-weight: 700;
+  color: var(--clay-text-light);
+  font-size: 13px;
+  padding-left: 6px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.info-item input,
+.info-item select {
+  padding: 14px 18px;
+  border: none;
+  border-radius: var(--clay-radius-md);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--clay-surface);
+  color: var(--clay-text);
+  box-shadow:
+    inset 5px 5px 12px var(--clay-shadow-dark-2),
+    inset -5px -5px 12px var(--clay-shadow-light);
+  transition: all 0.25s ease;
+  font-family: inherit;
+}
+
+.info-item input:focus,
+.info-item select:focus {
+  outline: none;
+  box-shadow:
+    inset 6px 6px 16px var(--clay-shadow-dark),
+    inset -6px -6px 16px var(--clay-shadow-light),
+    0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.info-item input:disabled,
+.info-item select:disabled {
+  background: var(--clay-surface-alt);
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+
+.kyc-display {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.kyc-item {
+  padding: 20px 24px;
+  background: var(--clay-surface);
+  border-radius: var(--clay-radius-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  box-shadow:
+    inset 4px 4px 10px var(--clay-shadow-dark-2),
+    inset -4px -4px 10px var(--clay-shadow-light);
+}
+
+.kyc-label {
+  font-weight: 700;
+  color: var(--clay-text-light);
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.kyc-value {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: var(--clay-text);
+  font-weight: 800;
+  padding: 8px 18px;
+  background: var(--clay-surface-card);
+  border-radius: var(--clay-radius-sm);
+  box-shadow:
+    4px 4px 10px var(--clay-shadow-dark-2),
+    -4px -4px 10px var(--clay-shadow-light);
+}
+
+.kyc-status {
+  padding: 8px 22px;
+  border-radius: var(--clay-radius-pill);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
+.kyc-status.verified {
+  background: linear-gradient(145deg, #6ee7b7 0%, #10b981 100%);
+  color: white;
+  box-shadow:
+    4px 4px 10px #a7f3d0,
+    -4px -4px 10px #ffffff;
+}
+
+.checkbox-item {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--clay-surface);
+  border-radius: var(--clay-radius-md);
+  box-shadow:
+    inset 3px 3px 8px var(--clay-shadow-dark-2),
+    inset -3px -3px 8px var(--clay-shadow-light);
+}
+
+.checkbox-item input {
+  width: 22px !important;
+  height: 22px !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  accent-color: var(--clay-primary);
+}
+
+.checkbox-item label {
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+  text-transform: none !important;
+  letter-spacing: 0.2px !important;
+  font-size: 15px !important;
+  color: var(--clay-text) !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+}

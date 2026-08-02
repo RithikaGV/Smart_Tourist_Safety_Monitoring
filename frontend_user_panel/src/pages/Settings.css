@@ -1,0 +1,62 @@
+.settings-card {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.settings-card h2 {
+  font-size: 22px;
+  color: var(--clay-text);
+  margin-bottom: 24px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.settings-form {
+  margin-bottom: 32px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 700;
+  color: var(--clay-text-light);
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding-left: 6px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.form-group input,
+.language-select {
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  border-radius: var(--clay-radius-md);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--clay-surface);
+  color: var(--clay-text);
+  box-shadow:
+    inset 5px 5px 12px var(--clay-shadow-dark-2),
+    inset -5px -5px 12px var(--clay-shadow-light);
+  transition: all 0.25s ease;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.language-select:focus {
+  outline: none;
+  box-shadow:
+    inset 6px 6px 16px var(--clay-shadow-dark),
+    inset -6px -6px 16px var(--clay-shadow-light),
+    0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.settings-section {
+  border-top: 2px solid var(--clay-border);
+  padding-top: 36px;
+}

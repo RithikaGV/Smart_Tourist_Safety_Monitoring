@@ -1,0 +1,108 @@
+.login-page {
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 520px;
+}
+
+.login-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--clay-text);
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group label {
+  font-weight: 700;
+  color: var(--clay-text-light);
+  font-size: 14px;
+  padding-left: 6px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.form-group input,
+.form-group select {
+  padding: 14px 18px;
+  border: none;
+  border-radius: var(--clay-radius-md);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--clay-surface);
+  color: var(--clay-text);
+  box-shadow:
+    inset 5px 5px 12px var(--clay-shadow-dark-2),
+    inset -5px -5px 12px var(--clay-shadow-light);
+  transition: all 0.25s ease;
+  font-family: inherit;
+}
+
+.form-group input::placeholder,
+.form-group select::placeholder {
+  color: var(--clay-text-muted);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  box-shadow:
+    inset 6px 6px 16px var(--clay-shadow-dark),
+    inset -6px -6px 16px var(--clay-shadow-light),
+    0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.create-account-link {
+  text-align: center;
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 2px solid var(--clay-border);
+}
+
+.create-account-link p {
+  color: var(--clay-text-light);
+  font-weight: 500;
+}
+
+.create-account-link a {
+  color: var(--clay-primary);
+  font-weight: 800;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: var(--clay-radius-pill);
+  transition: all 0.25s ease;
+}
+
+.create-account-link a:hover {
+  background: var(--clay-surface);
+  box-shadow:
+    inset 3px 3px 8px var(--clay-shadow-dark-2),
+    inset -3px -3px 8px var(--clay-shadow-light);
+}
