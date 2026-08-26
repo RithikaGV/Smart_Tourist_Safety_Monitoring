@@ -1,0 +1,61 @@
+place_id,name,cluster,type,latitude,longitude,restricted,avg_daily_rainfall_mm,max_daily_rainfall_mm,heavy_rain_days_count,avg_temp_max_c,distance_to_hospital_km,distance_to_police_km,crowd_density_avg,crime_score
+P001,Ooty Town Centre,Ooty,urban,11.41,76.699997,False,,,,,,,21.3,2.7
+P002,Ooty Lake,Ooty,lake,11.4061,76.6882,False,,,,,,,59.3,5.2
+P003,Government Botanical Garden,Ooty,garden,11.418752,76.711038,False,,,,,,,57.0,3.6
+P004,Doddabetta Peak,Ooty,peak,11.402417,76.736722,False,,,,,,,48.8,4.1
+P005,Government Rose Garden,Ooty,garden,11.4067,76.698,False,,,,,,,55.5,3.2
+P006,Wax World Museum,Ooty,museum,11.407,76.705,False,,,,,,,42.4,2.2
+P007,Tea Factory and Museum,Ooty,museum,11.402,76.725,False,,,,,,,42.6,2.7
+P008,Pykara Falls,Pykara,waterfall,11.47,76.627,False,,,,,,,54.5,3.7
+P009,Pykara Lake,Pykara,lake,11.465,76.63,False,,,,,,,58.5,5.4
+P010,Pykara Dam,Pykara,dam,11.468,76.628,False,,,,,,,34.6,1.9
+P011,Avalanche Lake,Avalanche,lake,11.322,76.611,True,,,,,,,19.3,4.2
+P012,Emerald Lake,Avalanche,lake,11.315,76.66,True,,,,,,,18.7,5.2
+P013,Sim's Park,Coonoor,garden,11.352,76.796,False,,,,,,,55.3,3.5
+P014,Dolphin's Nose,Coonoor,viewpoint,11.32,76.79,False,,,,,,,50.1,4.2
+P015,Lamb's Rock,Coonoor,viewpoint,11.335,76.785,False,,,,,,,53.4,2.8
+P016,Catherine Falls Coonoor side,Coonoor,waterfall,11.308,76.76,False,,,,,,,55.7,4.2
+P017,Kateri Falls,Coonoor,waterfall,11.36,76.83,False,,,,,,,52.2,5.2
+P018,Kodanad Viewpoint,Kotagiri,viewpoint,11.455,76.865,False,,,,,,,53.4,3.5
+P019,Longwood Shola,Kotagiri,forest,11.425,76.855,False,,,,,,,21.5,1.6
+P020,Rangaswamy Peak,Kotagiri,peak,11.44,76.84,False,,,,,,,47.2,2.5
+P021,Elk Falls,Kotagiri,waterfall,11.418,76.848,False,,,,,,,53.7,4.2
+P022,Theppakadu Reception Centre,Mudumalai,wildlife,11.579892,76.583479,False,,,,,,,58.3,5.1
+P023,Mudumalai Core Safari Zone,Mudumalai,wildlife,11.6,76.5,True,,,,,,,17.9,4.8
+P024,Masinagudi Town,Mudumalai,urban,11.5722,76.6427,False,,,,,,,19.4,1.5
+P025,Mukurthi National Park,Kunda,wildlife,11.267,76.475,True,,,,,,,17.6,3.9
+P026,Upper Bhavani Lake,Kunda,lake,11.345,76.545,True,,,,,,,18.7,5.1
+P027,Gudalur Town,Gudalur,urban,11.5,76.495,False,,,,,,,20.9,2.3
+P028,Bellikkal,Ooty,village,11.46,76.76,False,,,,,,,10.2,1.3
+P029,Kalhatty Falls,Ooty,waterfall,11.495,76.715,False,,,,,,,56.1,4.9
+P030,Bison Valley,Coonoor,forest,11.29,76.81,False,,,,,,,21.2,1.8
+P031,Law's Falls,Coonoor,waterfall,11.34,76.81,False,,,,,,,55.0,5.1
+P032,Ketti Valley,Ooty,village,11.385,76.75,False,,,,,,,10.5,0.9
+P033,Tribal Research Centre Museum,Ooty,museum,11.43,76.68,False,,,,,,,40.6,2.5
+P034,Glenmorgan,Pykara,viewpoint,11.485,76.61,False,,,,,,,53.5,4.5
+P035,Wenlock Downs,Ooty,grassland,11.44,76.66,False,,,,,,,27.4,2.0
+P036,Kamraj Sagar Dam,Ooty,dam,11.45,76.65,False,,,,,,,34.1,2.7
+P037,Needle View Point,Pykara,viewpoint,11.46,76.62,False,,,,,,,49.3,4.5
+P038,Deer Park,Ooty,garden,11.405,76.69,False,,,,,,,56.3,5.5
+P039,Thread Garden,Ooty,museum,11.408,76.696,False,,,,,,,39.7,3.7
+P040,Thunder World,Ooty,attraction,11.406,76.7,False,,,,,,,41.5,2.1
+P041,St. Stephen's Church,Ooty,heritage,11.413,76.696,False,,,,,,,32.9,2.1
+P042,Wellington,Coonoor,urban,11.375,76.81,False,,,,,,,20.1,1.7
+P043,Aruvankadu,Coonoor,urban,11.39,76.765,False,,,,,,,20.3,1.5
+P044,Burliar,Coonoor,village,11.33,76.85,False,,,,,,,10.5,1.1
+P045,Bandishola,Coonoor,village,11.37,76.79,False,,,,,,,9.7,1.1
+P046,Aracode,Kotagiri,village,11.47,76.9,False,,,,,,,9.8,1.0
+P047,Kairbetta,Kotagiri,village,11.46,76.82,False,,,,,,,9.9,1.1
+P048,Kengarai,Kotagiri,village,11.455,76.81,False,,,,,,,9.8,1.2
+P049,Devarshola,Gudalur,village,11.53,76.47,False,,,,,,,10.1,1.0
+P050,Nellakotta,Gudalur,village,11.51,76.51,False,,,,,,,10.1,1.1
+P051,Padanthorai,Gudalur,village,11.48,76.46,False,,,,,,,10.5,1.3
+P052,Cherangodu,Gudalur,village,11.52,76.5,False,,,,,,,10.6,1.0
+P053,Pandalur,Gudalur,urban,11.59,76.45,False,,,,,,,19.4,2.4
+P054,Bokkapuram,Mudumalai,village,11.56,76.635,False,,,,,,,10.5,1.4
+P055,Moyar River Crossing,Mudumalai,forest,11.61,76.6,True,,,,,,,6.3,1.8
+P056,Sigur Plateau,Mudumalai,forest,11.63,76.7,False,,,,,,,20.4,1.6
+P057,Fernhill,Ooty,urban,11.42,76.68,False,,,,,,,20.9,2.5
+P058,Lovedale,Ooty,urban,11.4,76.67,False,,,,,,,20.3,2.5
+P059,Coonoor Town Centre,Coonoor,urban,11.350208,76.796104,False,,,,,,,21.6,1.6
+P060,Kotagiri Town Centre,Kotagiri,urban,11.43,76.88,False,,,,,,,20.1,2.2

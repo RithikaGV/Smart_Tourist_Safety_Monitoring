@@ -1,0 +1,61 @@
+place_id,name,cluster,type,latitude,longitude,restricted,notes,coord_source
+P001,Ooty Town Centre,Ooty,urban,11.41,76.699997,False,Municipal hub; central reference point for cluster,verified_wikipedia_or_latlong.net
+P002,Ooty Lake,Ooty,lake,11.4061,76.6882,False,Artificial lake 65 acres boating,verified_wikipedia_or_latlong.net
+P003,Government Botanical Garden,Ooty,garden,11.418752,76.711038,False,650+ plant species lower slopes of Doddabetta,verified_wikipedia_or_latlong.net
+P004,Doddabetta Peak,Ooty,peak,11.402417,76.736722,False,Highest peak in Nilgiris 2637m ~9-10km from Ooty town,verified_wikipedia_or_latlong.net
+P005,Government Rose Garden,Ooty,garden,11.4067,76.6980,False,20000+ rose varieties,estimated_unverified
+P006,Wax World Museum,Ooty,museum,11.4070,76.7050,False,On Kotagiri Road,estimated_unverified
+P007,Tea Factory and Museum,Ooty,museum,11.4020,76.7250,False,Near Doddabetta road,estimated_unverified
+P008,Pykara Falls,Pykara,waterfall,11.4700,76.6270,False,~19-21km from Ooty originates from Mukurthi peak,estimated_unverified
+P009,Pykara Lake,Pykara,lake,11.4650,76.6300,False,Boating dam-formed lake near Pykara Falls,estimated_unverified
+P010,Pykara Dam,Pykara,dam,11.4680,76.6280,False,Adjacent to Pykara Lake,estimated_unverified
+P011,Avalanche Lake,Avalanche,lake,11.322,76.611,True,Defense-watershed controlled permit required for entry,verified_wikipedia_or_latlong.net
+P012,Emerald Lake,Avalanche,lake,11.3150,76.6600,True,Permit-gated area same restricted belt as Avalanche,estimated_unverified
+P013,Sim's Park,Coonoor,garden,11.3520,76.7960,False,Coonoor's main botanical park,estimated_unverified
+P014,Dolphin's Nose,Coonoor,viewpoint,11.3200,76.7900,False,~13km from Coonoor view of Catherine Falls,estimated_unverified
+P015,Lamb's Rock,Coonoor,viewpoint,11.3350,76.7850,False,Popular picnic viewpoint near Coonoor,estimated_unverified
+P016,Catherine Falls Coonoor side,Coonoor,waterfall,11.3080,76.7600,False,Second-highest waterfall in Nilgiris 250ft,estimated_unverified
+P017,Kateri Falls,Coonoor,waterfall,11.3600,76.8300,False,~11km from Coonoor in Kateri village,estimated_unverified
+P018,Kodanad Viewpoint,Kotagiri,viewpoint,11.4550,76.8650,False,220-degree valley panorama,estimated_unverified
+P019,Longwood Shola,Kotagiri,forest,11.4250,76.8550,False,Rare endemic shola forest reserve,estimated_unverified
+P020,Rangaswamy Peak,Kotagiri,peak,11.4400,76.8400,False,Tribal sacred site,estimated_unverified
+P021,Elk Falls,Kotagiri,waterfall,11.4180,76.8480,False,Near Kotagiri town,estimated_unverified
+P022,Theppakadu Reception Centre,Mudumalai,wildlife,11.579892,76.583479,False,Reserve reception centre + elephant camp gateway to safari zones,verified_wikipedia_or_latlong.net
+P023,Mudumalai Core Safari Zone,Mudumalai,wildlife,11.6,76.5,True,Critical Tiger Habitat permit/vehicle-only access,verified_wikipedia_or_latlong.net
+P024,Masinagudi Town,Mudumalai,urban,11.5722,76.6427,False,Gateway town for Mudumalai safaris,verified_wikipedia_or_latlong.net
+P025,Mukurthi National Park,Kunda,wildlife,11.267,76.475,True,High-altitude park advance Forest Division permit + mandatory guide required,verified_wikipedia_or_latlong.net
+P026,Upper Bhavani Lake,Kunda,lake,11.3450,76.5450,True,Within permit-restricted watershed belt historically part of safari sections now closed to tourists,estimated_unverified
+P027,Gudalur Town,Gudalur,urban,11.5000,76.4950,False,Gateway town to Mudumalai from the west,estimated_unverified
+P028,Bellikkal,Ooty,village,11.4600,76.7600,False,Village near Sigur Plateau valley/mountain viewpoints,estimated_unverified
+P029,Kalhatty Falls,Ooty,waterfall,11.4950,76.7150,False,On the Ooty-Mudumalai Kalhatty ghat road,estimated_unverified
+P030,Bison Valley,Coonoor,forest,11.2900,76.8100,False,Forest valley area near Coonoor known for bison sightings,estimated_unverified
+P031,Law's Falls,Coonoor,waterfall,11.3400,76.8100,False,Small waterfall en route Coonoor-Mettupalayam road,estimated_unverified
+P032,Ketti Valley,Ooty,village,11.3850,76.7500,False,Valley village between Ooty and Coonoor railway station,estimated_unverified
+P033,Tribal Research Centre Museum,Ooty,museum,11.4300,76.6800,False,Museum on Nilgiris tribal communities Toda Kota etc,estimated_unverified
+P034,Glenmorgan,Pykara,viewpoint,11.4850,76.6100,False,~35km NW of Ooty former tea estate valley/dam views,estimated_unverified
+P035,Wenlock Downs,Ooty,grassland,11.4400,76.6600,False,Rolling grassland golf course part of 9th Mile route,estimated_unverified
+P036,Kamraj Sagar Dam,Ooty,dam,11.4500,76.6500,False,Reservoir birdwatching spot near Wenlock Downs,estimated_unverified
+P037,Needle View Point,Pykara,viewpoint,11.4600,76.6200,False,Valley photography stop on Pykara route,estimated_unverified
+P038,Deer Park,Ooty,garden,11.4050,76.6900,False,Small park near Ooty Lake,estimated_unverified
+P039,Thread Garden,Ooty,museum,11.4080,76.6960,False,Handmade thread-flower indoor exhibit,estimated_unverified
+P040,Thunder World,Ooty,attraction,11.4060,76.7000,False,Amusement/adventure attraction near Ooty town,estimated_unverified
+P041,St. Stephen's Church,Ooty,heritage,11.4130,76.6960,False,One of the oldest churches in the Nilgiris 1829,estimated_unverified
+P042,Wellington,Coonoor,urban,11.3750,76.8100,False,Cantonment town adjacent to Coonoor Defence Services Staff College,estimated_unverified
+P043,Aruvankadu,Coonoor,urban,11.3900,76.7650,False,Town between Ooty and Coonoor railway station ordnance factory,estimated_unverified
+P044,Burliar,Coonoor,village,11.3300,76.8500,False,On the Coonoor-Mettupalayam ghat road tea/coffee estates,estimated_unverified
+P045,Bandishola,Coonoor,village,11.3700,76.7900,False,Village near Coonoor,estimated_unverified
+P046,Aracode,Kotagiri,village,11.4700,76.9000,False,Village in Kotagiri taluk,estimated_unverified
+P047,Kairbetta,Kotagiri,village,11.4600,76.8200,False,Village near Kotagiri tea estates,estimated_unverified
+P048,Kengarai,Kotagiri,village,11.4550,76.8100,False,Village in Kotagiri taluk,estimated_unverified
+P049,Devarshola,Gudalur,village,11.5300,76.4700,False,Village near Gudalur,estimated_unverified
+P050,Nellakotta,Gudalur,village,11.5100,76.5100,False,Village in Gudalur taluk near Mudumalai edge,estimated_unverified
+P051,Padanthorai,Gudalur,village,11.4800,76.4600,False,Village in Gudalur taluk,estimated_unverified
+P052,Cherangodu,Gudalur,village,11.5200,76.5000,False,Village in Gudalur taluk,estimated_unverified
+P053,Pandalur,Gudalur,urban,11.5900,76.4500,False,Town panchayat part of Mudumalai reserve administrative area,estimated_unverified
+P054,Bokkapuram,Mudumalai,village,11.5600,76.6350,False,Resort belt village near Masinagudi,estimated_unverified
+P055,Moyar River Crossing,Mudumalai,forest,11.6100,76.6000,True,River corridor within tiger reserve buffer elephant corridor,estimated_unverified
+P056,Sigur Plateau,Mudumalai,forest,11.6300,76.7000,False,Plateau/scrub forest belt between Ooty and Mudumalai wildlife corridor,estimated_unverified
+P057,Fernhill,Ooty,urban,11.4200,76.6800,False,Residential/estate area near Ooty town former royal retreat,estimated_unverified
+P058,Lovedale,Ooty,urban,11.4000,76.6700,False,Railway station area boarding schools,estimated_unverified
+P059,Coonoor Town Centre,Coonoor,urban,11.350208,76.796104,False,Second-largest hill town in Nilgiris central reference point for cluster,verified_wikipedia_or_latlong.net
+P060,Kotagiri Town Centre,Kotagiri,urban,11.43,76.88,False,Oldest hill station in Nilgiris central reference point for cluster,verified_wikipedia_or_latlong.net

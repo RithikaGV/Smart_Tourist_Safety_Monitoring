@@ -1,0 +1,40 @@
+{
+  "columns": [
+    "avg_daily_rainfall_mm",
+    "max_daily_rainfall_mm",
+    "heavy_rain_days_count",
+    "avg_temp_max_c",
+    "distance_to_hospital_km",
+    "distance_to_police_km",
+    "crowd_density_avg",
+    "crime_score",
+    "restricted",
+    "cluster_Avalanche",
+    "cluster_Coonoor",
+    "cluster_Gudalur",
+    "cluster_Kotagiri",
+    "cluster_Kunda",
+    "cluster_Mudumalai",
+    "cluster_Ooty",
+    "cluster_Pykara",
+    "type_attraction",
+    "type_dam",
+    "type_forest",
+    "type_garden",
+    "type_grassland",
+    "type_heritage",
+    "type_lake",
+    "type_museum",
+    "type_peak",
+    "type_urban",
+    "type_viewpoint",
+    "type_village",
+    "type_waterfall",
+    "type_wildlife"
+  ],
+  "label_classes": [
+    "Safe",
+    "Dangerous"
+  ],
+  "encoding": "Dangerous=1, Safe=0"
+}
