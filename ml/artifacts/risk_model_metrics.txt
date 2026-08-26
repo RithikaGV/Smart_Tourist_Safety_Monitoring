@@ -1,0 +1,38 @@
+Dataset size: 60 rows | 5-fold stratified cross-validation
+NOTE: labels are synthetic (rule-based), see generate_risk_labels.py.
+Metrics validate the PIPELINE, not real-world model accuracy.
+All Precision/Recall/F1 below target the DANGEROUS class specifically —
+that's the class that actually matters for a safety app.
+
+=== XGBoost (primary) — cross-validated, scored on Dangerous class ===
+Accuracy:  0.917 (+/- 0.091)
+Precision: 0.850 (+/- 0.300)
+Recall:    0.800 (+/- 0.245)
+F1:        0.747 (+/- 0.229)
+(+/- shows how much the score swings across folds — a wide swing means
+ 'don't trust this number too much yet, we need more data')
+
+=== XGBoost — single holdout split (for a readable confusion matrix) ===
+Precision (Dangerous): 0.667
+Recall (Dangerous):    1.000
+F1 (Dangerous):        0.800
+ROC-AUC:   1.000
+Confusion matrix (rows/cols ordered Dangerous=0, Safe=1):
+[[12  1]
+ [ 0  2]]
+
+=== Random Forest (comparison, scored on Dangerous class) ===
+Accuracy:  1.000
+Precision: 1.000
+Recall:    1.000
+F1:        1.000
+
+Top 8 features by XGBoost importance:
+  type_waterfall: 0.451
+  restricted: 0.363
+  cluster_Coonoor: 0.097
+  crime_score: 0.060
+  crowd_density_avg: 0.029
+  avg_daily_rainfall_mm: 0.000
+  max_daily_rainfall_mm: 0.000
+  heavy_rain_days_count: 0.000

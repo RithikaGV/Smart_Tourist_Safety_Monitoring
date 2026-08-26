@@ -1,0 +1,4 @@
+Total places: 60
+Restricted places: 6
+Highest crime_score place: Deer Park (5.5)
+Most crowded place (avg): Ooty Lake (59.3)

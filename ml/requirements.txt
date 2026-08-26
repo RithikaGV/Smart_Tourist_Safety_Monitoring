@@ -1,0 +1,4 @@
+# Add these on top of your normal ml/ requirements when you're ready
+# to actually run the API layer (Phase 13)
+fastapi
+uvicorn

@@ -1,0 +1,61 @@
+place_id,name,risk_label,risk_score_raw
+P001,Ooty Town Centre,Safe,0.2626
+P002,Ooty Lake,Safe,0.3042
+P003,Government Botanical Garden,Safe,0.2979
+P004,Doddabetta Peak,Safe,0.2652
+P005,Government Rose Garden,Safe,0.2732
+P006,Wax World Museum,Safe,0.2308
+P007,Tea Factory and Museum,Safe,0.2181
+P008,Pykara Falls,Safe,0.2893
+P009,Pykara Lake,Safe,0.3008
+P010,Pykara Dam,Safe,0.2333
+P011,Avalanche Lake,Dangerous,0.5934
+P012,Emerald Lake,Dangerous,0.6324
+P013,Sim's Park,Safe,0.2731
+P014,Dolphin's Nose,Safe,0.3432
+P015,Lamb's Rock,Safe,0.2192
+P016,Catherine Falls Coonoor side,Safe,0.2781
+P017,Kateri Falls,Dangerous,0.3578
+P018,Kodanad Viewpoint,Safe,0.327
+P019,Longwood Shola,Safe,0.2478
+P020,Rangaswamy Peak,Safe,0.2408
+P021,Elk Falls,Dangerous,0.3551
+P022,Theppakadu Reception Centre,Safe,0.291
+P023,Mudumalai Core Safari Zone,Dangerous,0.6953
+P024,Masinagudi Town,Safe,0.2171
+P025,Mukurthi National Park,Dangerous,0.5914
+P026,Upper Bhavani Lake,Dangerous,0.6315
+P027,Gudalur Town,Safe,0.2469
+P028,Bellikkal,Safe,0.2703
+P029,Kalhatty Falls,Safe,0.299
+P030,Bison Valley,Safe,0.2557
+P031,Law's Falls,Dangerous,0.353
+P032,Ketti Valley,Safe,0.2111
+P033,Tribal Research Centre Museum,Safe,0.2615
+P034,Glenmorgan,Safe,0.2748
+P035,Wenlock Downs,Safe,0.2056
+P036,Kamraj Sagar Dam,Safe,0.24
+P037,Needle View Point,Safe,0.3401
+P038,Deer Park,Safe,0.3453
+P039,Thread Garden,Safe,0.2825
+P040,Thunder World,Safe,0.2499
+P041,St. Stephen's Church,Safe,0.2439
+P042,Wellington,Safe,0.2248
+P043,Aruvankadu,Safe,0.2669
+P044,Burliar,Safe,0.251
+P045,Bandishola,Safe,0.2062
+P046,Aracode,Safe,0.2355
+P047,Kairbetta,Safe,0.2342
+P048,Kengarai,Safe,0.2729
+P049,Devarshola,Safe,0.2508
+P050,Nellakotta,Safe,0.2103
+P051,Padanthorai,Safe,0.2864
+P052,Cherangodu,Safe,0.1892
+P053,Pandalur,Safe,0.2627
+P054,Bokkapuram,Safe,0.2678
+P055,Moyar River Crossing,Dangerous,0.5253
+P056,Sigur Plateau,Safe,0.2399
+P057,Fernhill,Safe,0.2272
+P058,Lovedale,Safe,0.2906
+P059,Coonoor Town Centre,Safe,0.2664
+P060,Kotagiri Town Centre,Safe,0.2704

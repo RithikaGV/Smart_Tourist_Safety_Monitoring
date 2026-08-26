@@ -1,0 +1,61 @@
+place_id,name,safety_score,risk_percentage,contributing_factors
+P001,Ooty Town Centre,66.9,33.1,low footfall + far from help
+P002,Ooty Lake,60.4,39.6,above-average crime score
+P003,Government Botanical Garden,67.3,32.7,above-average crime score
+P004,Doddabetta Peak,64.0,36.0,above-average crime score
+P005,Government Rose Garden,69.0,31.0,above-average crime score
+P006,Wax World Museum,71.9,28.1,no major risk factors detected
+P007,Tea Factory and Museum,69.6,30.4,no major risk factors detected
+P008,Pykara Falls,66.6,33.4,above-average crime score
+P009,Pykara Lake,59.4,40.6,above-average crime score
+P010,Pykara Dam,72.2,27.8,no major risk factors detected
+P011,Avalanche Lake,39.9,60.1,above-average crime score; permit-restricted zone; low footfall + far from help
+P012,Emerald Lake,35.2,64.8,above-average crime score; permit-restricted zone; low footfall + far from help
+P013,Sim's Park,67.6,32.4,above-average crime score
+P014,Dolphin's Nose,63.7,36.3,above-average crime score
+P015,Lamb's Rock,70.5,29.5,above-average crime score
+P016,Catherine Falls Coonoor side,64.5,35.5,above-average crime score
+P017,Kateri Falls,59.5,40.5,above-average crime score
+P018,Kodanad Viewpoint,67.3,32.7,above-average crime score
+P019,Longwood Shola,71.9,28.1,low footfall + far from help
+P020,Rangaswamy Peak,71.1,28.9,no major risk factors detected
+P021,Elk Falls,64.2,35.8,above-average crime score
+P022,Theppakadu Reception Centre,60.7,39.3,above-average crime score
+P023,Mudumalai Core Safari Zone,36.9,63.1,above-average crime score; permit-restricted zone; low footfall + far from help
+P024,Masinagudi Town,72.1,27.9,low footfall + far from help
+P025,Mukurthi National Park,41.0,59.0,above-average crime score; permit-restricted zone; low footfall + far from help
+P026,Upper Bhavani Lake,35.7,64.3,above-average crime score; permit-restricted zone; low footfall + far from help
+P027,Gudalur Town,68.7,31.3,low footfall + far from help
+P028,Bellikkal,71.9,28.1,low footfall + far from help
+P029,Kalhatty Falls,61.3,38.7,above-average crime score
+P030,Bison Valley,71.0,29.0,low footfall + far from help
+P031,Law's Falls,60.3,39.7,above-average crime score
+P032,Ketti Valley,73.7,26.3,low footfall + far from help
+P033,Tribal Research Centre Museum,70.3,29.7,no major risk factors detected
+P034,Glenmorgan,62.8,37.2,above-average crime score
+P035,Wenlock Downs,70.9,29.1,no major risk factors detected
+P036,Kamraj Sagar Dam,68.5,31.5,no major risk factors detected
+P037,Needle View Point,62.3,37.7,above-average crime score
+P038,Deer Park,58.6,41.4,above-average crime score
+P039,Thread Garden,64.7,35.3,above-average crime score
+P040,Thunder World,72.2,27.8,no major risk factors detected
+P041,St. Stephen's Church,71.1,28.9,no major risk factors detected
+P042,Wellington,71.3,28.7,low footfall + far from help
+P043,Aruvankadu,72.2,27.8,low footfall + far from help
+P044,Burliar,72.8,27.2,low footfall + far from help
+P045,Bandishola,72.7,27.3,low footfall + far from help
+P046,Aracode,73.2,26.8,low footfall + far from help
+P047,Kairbetta,72.8,27.2,low footfall + far from help
+P048,Kengarai,72.3,27.7,low footfall + far from help
+P049,Devarshola,73.2,26.8,low footfall + far from help
+P050,Nellakotta,72.8,27.2,low footfall + far from help
+P051,Padanthorai,71.9,28.1,low footfall + far from help
+P052,Cherangodu,73.3,26.7,low footfall + far from help
+P053,Pandalur,68.0,32.0,low footfall + far from help
+P054,Bokkapuram,71.5,28.5,low footfall + far from help
+P055,Moyar River Crossing,49.1,50.9,permit-restricted zone; low footfall + far from help
+P056,Sigur Plateau,71.8,28.2,low footfall + far from help
+P057,Fernhill,67.8,32.2,low footfall + far from help
+P058,Lovedale,67.7,32.3,low footfall + far from help
+P059,Coonoor Town Centre,72.0,28.0,low footfall + far from help
+P060,Kotagiri Town Centre,69.0,31.0,low footfall + far from help

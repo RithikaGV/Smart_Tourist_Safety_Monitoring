@@ -1,0 +1,11 @@
+=== Safety Score v2 (XGBoost Regressor) — DEMO / PROXY TARGET ONLY ===
+Target used: risk_score_raw from generate_risk_labels.py (a FORMULA, not real data).
+These metrics show how well XGBoost can approximate that formula from features.
+They do NOT measure real-world safety score accuracy.
+
+Cross-validated R^2:  0.646 (+/- 0.296)
+Cross-validated MAE:  2.82 points (+/- 0.59)
+
+RECOMMENDATION: use v1 (generate_safety_scores.py) as the actual
+deliverable. Revisit this v2 model only if/when real safety-outcome
+data becomes available to train against.
