@@ -1,0 +1,104 @@
+[
+  {
+    "_id": { "$oid": "6650c301e4b02a1b9c8d00b1" },
+    "zoneCode": "ZONE-NILGIRIS-RED-001",
+    "zoneName": "Pykara Landslide & Slip Hazard Sector",
+    "zoneType": "LANDSLIDE_AREA",
+    "riskLevel": "RED_DANGER",
+    "boundaryPolygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.595, 11.450],
+          [76.615, 11.450],
+          [76.615, 11.465],
+          [76.595, 11.465],
+          [76.595, 11.450]
+        ]
+      ]
+    },
+    "alertNotification": {
+      "displayHeadline": "⚠️ Danger! Please turn back.",
+      "subText": "Active landslide hazard zone. Road closed to all non-emergency vehicles.",
+      "severity": "CRITICAL"
+    },
+    "edgeSync": {
+      "syncVersion": 4,
+      "cachedOnEdgeDevicesCount": 4980,
+      "instantPushTriggered": true,
+      "pushedAt": { "$date": "2026-07-12T06:15:00.000Z" }
+    },
+    "createdByOfficerId": { "$oid": "6650c101e4b02a1b9c8d0092" },
+    "isActive": true,
+    "createdAt": { "$date": "2026-07-12T06:10:00.000Z" },
+    "updatedAt": { "$date": "2026-07-12T06:15:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c301e4b02a1b9c8d00b2" },
+    "zoneCode": "ZONE-NILGIRIS-RED-002",
+    "zoneName": "Mudumalai Core Wildlife Corridor",
+    "zoneType": "RESTRICTED_FOREST_ZONE",
+    "riskLevel": "RED_DANGER",
+    "boundaryPolygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.520, 11.550],
+          [76.550, 11.550],
+          [76.550, 11.575],
+          [76.520, 11.575],
+          [76.520, 11.550]
+        ]
+      ]
+    },
+    "alertNotification": {
+      "displayHeadline": "⚠️ Prohibited Forest Core - Do Not Enter",
+      "subText": "Entry without Forest Ranger escort is illegal under Wildlife Protection Act.",
+      "severity": "CRITICAL"
+    },
+    "edgeSync": {
+      "syncVersion": 2,
+      "cachedOnEdgeDevicesCount": 5020,
+      "instantPushTriggered": true,
+      "pushedAt": { "$date": "2026-07-10T08:00:00.000Z" }
+    },
+    "createdByOfficerId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+    "isActive": true,
+    "createdAt": { "$date": "2026-07-10T07:50:00.000Z" },
+    "updatedAt": { "$date": "2026-07-10T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c301e4b02a1b9c8d00b3" },
+    "zoneCode": "ZONE-NILGIRIS-YEL-003",
+    "zoneName": "Doddabetta Summit Peak Observation Perimeter",
+    "zoneType": "HIGH_CROWD_DENSITY_ZONE",
+    "riskLevel": "YELLOW_CROWDED",
+    "boundaryPolygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.732, 11.398],
+          [76.745, 11.398],
+          [76.745, 11.408],
+          [76.732, 11.408],
+          [76.732, 11.398]
+        ]
+      ]
+    },
+    "alertNotification": {
+      "displayHeadline": "Notice: Peak Tourist Rush Ahead",
+      "subText": "High footfall. Expect 30-minute vehicle queue at toll gate.",
+      "severity": "MODERATE"
+    },
+    "edgeSync": {
+      "syncVersion": 1,
+      "cachedOnEdgeDevicesCount": 4200,
+      "instantPushTriggered": true,
+      "pushedAt": { "$date": "2026-07-11T09:00:00.000Z" }
+    },
+    "createdByOfficerId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+    "isActive": true,
+    "createdAt": { "$date": "2026-07-11T08:45:00.000Z" },
+    "updatedAt": { "$date": "2026-07-11T09:00:00.000Z" }
+  }
+]

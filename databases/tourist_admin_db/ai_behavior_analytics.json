@@ -1,0 +1,112 @@
+[
+  {
+    "_id": { "$oid": "6650c801e4b02a1b9c8d0101" },
+    "alertId": "AI-ANOMALY-2026-NIL-0019",
+    "touristBlockchainId": "DID:TOURIST:ETH:0x9A1b2c3d4E5F6a7B8c9D0e1F2a3B4c5D6e7F8a9B",
+    "anonymousTouristRefId": "ANON-TOURIST-HASH-8831",
+    "detectionCategory": "SUSPICIOUS_OSCILLATION_MOVEMENT",
+    "riskScore": 82,
+    "confidenceLevel": 0.91,
+    "analysisSummary": "Repeated oscillatory movement between Restricted Border Buffer and Dense Forest (Border -> Forest -> Border -> Forest -> Border) over a 3-hour period between 01:00 AM and 04:00 AM.",
+    "movementPatternTrail": [
+      {
+        "step": 1,
+        "locationName": "Inter-State Border Buffer Sector 12",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.512, 11.582]
+        },
+        "dwellTimeMinutes": 45,
+        "recordedAt": { "$date": "2026-07-12T01:15:00.000Z" }
+      },
+      {
+        "step": 2,
+        "locationName": "Unmarked Forest Ridge Track 4",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.505, 11.571]
+        },
+        "dwellTimeMinutes": 35,
+        "recordedAt": { "$date": "2026-07-12T02:00:00.000Z" }
+      },
+      {
+        "step": 3,
+        "locationName": "Inter-State Border Buffer Sector 12",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.511, 11.583]
+        },
+        "dwellTimeMinutes": 50,
+        "recordedAt": { "$date": "2026-07-12T02:50:00.000Z" }
+      },
+      {
+        "step": 4,
+        "locationName": "Unmarked Forest Ridge Track 4",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.504, 11.572]
+        },
+        "dwellTimeMinutes": 40,
+        "recordedAt": { "$date": "2026-07-12T03:40:00.000Z" }
+      }
+    ],
+    "comparativeBaseline": {
+      "typicalTouristRoute": "Hotel -> Botanical Garden -> Lake -> Hotel",
+      "deviationEntropyIndex": 4.85,
+      "isOffHours": true
+    },
+    "alertStatus": "UNDER_OFFICER_REVIEW",
+    "reviewedByOfficerId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+    "riskPredictionScoreDistribution": {
+      "smugglingRisk": 78,
+      "lostTrekkerRisk": 34,
+      "unauthorizedTrespassRisk": 89
+    },
+    "createdAt": { "$date": "2026-07-12T04:10:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c801e4b02a1b9c8d0102" },
+    "alertId": "AI-ANOMALY-2026-NIL-0020",
+    "touristBlockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032",
+    "anonymousTouristRefId": "ANON-TOURIST-HASH-0048",
+    "detectionCategory": "SUDDEN_DEVIATION_UNRESPONSIVE",
+    "riskScore": 74,
+    "confidenceLevel": 0.88,
+    "analysisSummary": "Tourist planned Hotel -> Beach/Lake -> Museum itinerary, but diverted 8.2 km into landslide hazard forest sector and failed to acknowledge mobile safety prompt.",
+    "movementPatternTrail": [
+      {
+        "step": 1,
+        "locationName": "Pykara Lake Main Road",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.6033, 11.4552]
+        },
+        "dwellTimeMinutes": 20,
+        "recordedAt": { "$date": "2026-07-12T10:30:00.000Z" }
+      },
+      {
+        "step": 2,
+        "locationName": "Mudumalai Forest Slope",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.5412, 11.5541]
+        },
+        "dwellTimeMinutes": 30,
+        "recordedAt": { "$date": "2026-07-12T11:15:00.000Z" }
+      }
+    ],
+    "comparativeBaseline": {
+      "typicalTouristRoute": "Pykara Waterfall -> Doddabetta Peak",
+      "deviationEntropyIndex": 3.72,
+      "isOffHours": false
+    },
+    "alertStatus": "ESCALATED_TO_SOS",
+    "reviewedByOfficerId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+    "riskPredictionScoreDistribution": {
+      "strandingRisk": 92,
+      "landslideExposureRisk": 88,
+      "medicalEmergencyRisk": 65
+    },
+    "createdAt": { "$date": "2026-07-12T11:18:00.000Z" }
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "_id": { "$oid": "6650ba01e4b02a1b9c8d0091" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "VERIFIED_HOTEL",
+    "name": "Savoy - IHCL SeleQtions (Verified Safe Hotel)",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.695, 11.4142]
+    },
+    "address": "77 Sylks Road, Ooty, Tamil Nadu 643001",
+    "contactNumber": "+91-423-2225500",
+    "safetyRating": 4.9,
+    "features": ["24/7 Front Desk", "CCTV Surveillance", "Doctor-on-call", "Private Security Guard"]
+  },
+  {
+    "_id": { "$oid": "6650ba01e4b02a1b9c8d0092" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "PETROL_STATION_24X7",
+    "name": "Indian Oil 24/7 Auto Care & Emergency Fuel Station",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.706, 11.41]
+    },
+    "address": "Coonoor Road Junction, Charing Cross, Ooty, Tamil Nadu 643001",
+    "contactNumber": "+91-423-2441189",
+    "safetyRating": 4.7,
+    "features": ["24 Hours Open", "Well Lit", "Restrooms", "Air & Water Assistance", "Towing Contact"]
+  },
+  {
+    "_id": { "$oid": "6650ba01e4b02a1b9c8d0093" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "SAFE_CAFE",
+    "name": "Earl's Secret Safe Tourist Cafe & Rest Stop",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.702, 11.417]
+    },
+    "address": "Havelock Road, Ooty, Tamil Nadu 643001",
+    "contactNumber": "+91-423-2444047",
+    "safetyRating": 4.8,
+    "features": ["Free High Speed WiFi", "Clean Drinking Water", "Verified Tourist Friendly", "First Aid Kit"]
+  },
+  {
+    "_id": { "$oid": "6650ba01e4b02a1b9c8d0094" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "ATM",
+    "name": "State Bank of India 24/7 Guarded ATM Booth",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.7035, 11.4105]
+    },
+    "address": "Bank Road, Main Market, Ooty, Tamil Nadu 643001",
+    "contactNumber": "1800-425-3800",
+    "safetyRating": 4.6,
+    "features": ["Armed Security Guard On-site", "CCTV Inside/Outside", "24/7 Cash Available"]
+  },
+  {
+    "_id": { "$oid": "6650ba01e4b02a1b9c8d0095" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "PUBLIC_TRANSPORT_HUB",
+    "name": "Udhagamandalam Central Bus Stand & Railway Terminus",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.6998, 11.4078]
+    },
+    "address": "Central Bus Terminus, Ooty, Tamil Nadu 643001",
+    "contactNumber": "+91-423-2443416",
+    "safetyRating": 4.5,
+    "features": ["Police Help Desk Inside", "Prepaid Taxi Counter", "24/7 Transit Security", "Night Waiting Hall"]
+  }
+]

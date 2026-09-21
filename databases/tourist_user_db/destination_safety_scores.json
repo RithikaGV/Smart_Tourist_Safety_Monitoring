@@ -1,0 +1,67 @@
+[
+  {
+    "_id": { "$oid": "6650b801e4b02a1b9c8d0071" },
+    "destinationCity": "Ooty",
+    "placeName": "Pykara Waterfalls & Boathouse",
+    "safetyRating": {
+      "overallScore": 8.9,
+      "maxScore": 10.0,
+      "scoreBadgeColor": "GREEN",
+      "crimeRisk": "LOW",
+      "womensSafety": "HIGH",
+      "nightSafety": "MEDIUM",
+      "naturalDisasterRisk": "LOW",
+      "crowdLevel": "HIGH",
+      "weatherAlerts": [
+        "Moderate monsoon showers expected in the afternoon",
+        "Dense morning fog on mountain hairpin bends"
+      ]
+    },
+    "aiSafetyInsights": "Safe tourist area with visible forest patrol and CCTV surveillance. Boating operations halt promptly when river water levels rise.",
+    "emergencyAccessSummary": "Nearest medical post 4.2 km; police patrol vehicle stationed at boat house entrance.",
+    "lastCalculatedAt": { "$date": "2026-07-12T06:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650b801e4b02a1b9c8d0072" },
+    "destinationCity": "Ooty",
+    "placeName": "Mudumalai Tiger Reserve",
+    "safetyRating": {
+      "overallScore": 8.4,
+      "maxScore": 10.0,
+      "scoreBadgeColor": "GREEN",
+      "crimeRisk": "LOW",
+      "womensSafety": "HIGH",
+      "nightSafety": "LOW",
+      "naturalDisasterRisk": "MEDIUM",
+      "crowdLevel": "MODERATE",
+      "weatherAlerts": [
+        "Elephant crossing active along Thorapalli-Theppakadu corridor",
+        "Night travel restricted between 09:00 PM and 06:00 AM"
+      ]
+    },
+    "aiSafetyInsights": "Strictly follow forest department safari jeeps. Never alight from vehicle inside sanctuary perimeter.",
+    "emergencyAccessSummary": "Forest ranger check-post 1.5 km; Theppakadu elephant camp medical first aid room available.",
+    "lastCalculatedAt": { "$date": "2026-07-12T06:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650b801e4b02a1b9c8d0073" },
+    "destinationCity": "Ooty",
+    "placeName": "Government Botanical Garden",
+    "safetyRating": {
+      "overallScore": 9.4,
+      "maxScore": 10.0,
+      "scoreBadgeColor": "GREEN",
+      "crimeRisk": "LOW",
+      "womensSafety": "VERY_HIGH",
+      "nightSafety": "HIGH",
+      "naturalDisasterRisk": "VERY_LOW",
+      "crowdLevel": "HIGH",
+      "weatherAlerts": [
+        "Clear skies during morning hours, light drizzle possible post 3 PM"
+      ]
+    },
+    "aiSafetyInsights": "Urban gated park with tourist police assistance desk and round-the-clock security guards.",
+    "emergencyAccessSummary": "Ooty Government General Hospital 1.8 km; Central Police Station 2.0 km.",
+    "lastCalculatedAt": { "$date": "2026-07-12T06:00:00.000Z" }
+  }
+]

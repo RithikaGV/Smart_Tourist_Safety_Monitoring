@@ -1,0 +1,35 @@
+[
+  {
+    "_id": { "$oid": "6650b301e4b02a1b9c8d0021" },
+    "tripId": { "$oid": "6650b201e4b02a1b9c8d0011" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "checklistItems": [
+      { "itemKey": "passport_id", "title": "ID Proof (Aadhaar / Passport)", "category": "DOCUMENTS", "isChecked": true },
+      { "itemKey": "tickets", "title": "Train / Flight / Bus Tickets", "category": "DOCUMENTS", "isChecked": true },
+      { "itemKey": "hotel_confirmation", "title": "Hotel Booking Confirmation Voucher", "category": "DOCUMENTS", "isChecked": true },
+      { "itemKey": "medicines", "title": "Prescription Medicines & Inhaler", "category": "HEALTH", "isChecked": true },
+      { "itemKey": "power_bank", "title": "High Capacity Power Bank (20000mAh)", "category": "ELECTRONICS", "isChecked": true },
+      { "itemKey": "charger", "title": "Mobile Charger & Cable", "category": "ELECTRONICS", "isChecked": true },
+      { "itemKey": "cash", "title": "Emergency Physical Cash", "category": "FINANCE", "isChecked": false },
+      { "itemKey": "emergency_contacts", "title": "Offline Written Emergency Contacts List", "category": "SAFETY", "isChecked": true },
+      { "itemKey": "raincoat_warmwear", "title": "Raincoat & Woolen Jacket", "category": "GEAR", "isChecked": true }
+    ],
+    "lastUpdated": { "$date": "2026-07-12T07:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650b301e4b02a1b9c8d0022" },
+    "tripId": { "$oid": "6650b201e4b02a1b9c8d0012" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "checklistItems": [
+      { "itemKey": "passport_id", "title": "International Passport & Visa Copy", "category": "DOCUMENTS", "isChecked": true },
+      { "itemKey": "tickets", "title": "Return Travel Tickets", "category": "DOCUMENTS", "isChecked": true },
+      { "itemKey": "hotel_confirmation", "title": "Resort Reservation in Ooty", "category": "DOCUMENTS", "isChecked": false },
+      { "itemKey": "medicines", "title": "Personal First-aid & Allergy Pills", "category": "HEALTH", "isChecked": true },
+      { "itemKey": "power_bank", "title": "Solar / High Speed Power Bank", "category": "ELECTRONICS", "isChecked": true },
+      { "itemKey": "charger", "title": "Universal Adapter & Phone Cable", "category": "ELECTRONICS", "isChecked": true },
+      { "itemKey": "cash", "title": "INR Cash for Local Forest Entry", "category": "FINANCE", "isChecked": false },
+      { "itemKey": "emergency_contacts", "title": "High Commission & Local Police Helpline", "category": "SAFETY", "isChecked": true }
+    ],
+    "lastUpdated": { "$date": "2026-07-11T16:30:00.000Z" }
+  }
+]

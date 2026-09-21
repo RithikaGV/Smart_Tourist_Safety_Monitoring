@@ -1,0 +1,134 @@
+[
+  {
+    "_id": { "$oid": "6650b201e4b02a1b9c8d0011" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "blockchainTripId": "TX-TRIP-2026-OOTY-7712",
+    "tripTitle": "Nilgiris Explorer & Wildlife Trail",
+    "destinationCity": "Ooty",
+    "destinationDistrict": "Nilgiris",
+    "startDate": { "$date": "2026-07-12T08:00:00.000Z" },
+    "endDate": { "$date": "2026-07-15T20:00:00.000Z" },
+    "travelersCount": 2,
+    "travelType": "Family",
+    "status": "CURRENT",
+    "plannedItinerary": [
+      {
+        "day": 1,
+        "date": "2026-07-12",
+        "placeName": "Pykara Waterfalls & Lake",
+        "category": "Waterbody / Forest",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.6033, 11.4552]
+        },
+        "plannedTime": "10:30 AM",
+        "status": "COMPLETED"
+      },
+      {
+        "day": 2,
+        "date": "2026-07-13",
+        "placeName": "Mudumalai Tiger Reserve",
+        "category": "Wildlife Sanctuary",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.5333, 11.5623]
+        },
+        "plannedTime": "07:00 AM",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "day": 3,
+        "date": "2026-07-14",
+        "placeName": "Government Botanical Garden",
+        "category": "Heritage Garden",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.7112, 11.4174]
+        },
+        "plannedTime": "02:00 PM",
+        "status": "UPCOMING"
+      }
+    ],
+    "adaptiveRouting": {
+      "isAdaptiveRerouteApplied": true,
+      "originalSegment": "Temple -> Waterfall",
+      "recommendedSegment": "Museum -> Temple",
+      "reason": "Heavy monsoon rainfall triggered flash flood advisory at Pykara Waterfall gorge. Rerouted to Indoor Tribal Museum then Temple.",
+      "weatherFactor": "HEAVY_RAIN_RED_ALERT",
+      "crowdFactor": "HIGH",
+      "roadStatus": "CLOSED_FOR_MAINTENANCE",
+      "reroutedAt": { "$date": "2026-07-12T07:45:00.000Z" }
+    },
+    "sharedWith": [
+      {
+        "contactName": "Neha Sharma",
+        "phoneNumber": "+91-9800012346",
+        "shareLiveLocation": true,
+        "shareItinerary": true,
+        "shareToken": "shr_tok_991823aef82c"
+      }
+    ],
+    "createdAt": { "$date": "2026-07-10T11:00:00.000Z" },
+    "updatedAt": { "$date": "2026-07-12T08:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650b201e4b02a1b9c8d0012" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "blockchainTripId": "TX-TRIP-2026-OOTY-7719",
+    "tripTitle": "Solo Photography Trek in Nilgiris",
+    "destinationCity": "Ooty",
+    "destinationDistrict": "Nilgiris",
+    "startDate": { "$date": "2026-07-13T06:00:00.000Z" },
+    "endDate": { "$date": "2026-07-16T18:00:00.000Z" },
+    "travelersCount": 1,
+    "travelType": "Solo",
+    "status": "UPCOMING",
+    "plannedItinerary": [
+      {
+        "day": 1,
+        "date": "2026-07-13",
+        "placeName": "Doddabetta Peak",
+        "category": "Viewpoint / Mountain",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.7377, 11.4011]
+        },
+        "plannedTime": "08:00 AM",
+        "status": "UPCOMING"
+      },
+      {
+        "day": 2,
+        "date": "2026-07-14",
+        "placeName": "Avalanche Lake Eco Sanctuary",
+        "category": "Restricted Forest Lake",
+        "coordinates": {
+          "type": "Point",
+          "coordinates": [76.5912, 11.2984]
+        },
+        "plannedTime": "10:00 AM",
+        "status": "UPCOMING"
+      }
+    ],
+    "adaptiveRouting": {
+      "isAdaptiveRerouteApplied": false,
+      "originalSegment": "Hotel -> Doddabetta Peak",
+      "recommendedSegment": "Hotel -> Doddabetta Peak",
+      "reason": "Normal conditions; early morning window optimal for mountain visibility.",
+      "weatherFactor": "MILD_MIST",
+      "crowdFactor": "LOW",
+      "roadStatus": "ALL_CLEAR",
+      "reroutedAt": null
+    },
+    "sharedWith": [
+      {
+        "contactName": "David Smith",
+        "phoneNumber": "+44-7700900555",
+        "shareLiveLocation": true,
+        "shareItinerary": true,
+        "shareToken": "shr_tok_772188bcd031"
+      }
+    ],
+    "createdAt": { "$date": "2026-07-11T16:00:00.000Z" },
+    "updatedAt": { "$date": "2026-07-11T16:00:00.000Z" }
+  }
+]

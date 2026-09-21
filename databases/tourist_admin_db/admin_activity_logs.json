@@ -1,0 +1,50 @@
+[
+  {
+    "_id": { "$oid": "6650ca01e4b02a1b9c8d0121" },
+    "logId": "ACT-LOG-2026-07-0091",
+    "officer": {
+      "officerObjectId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+      "officerId": "TN-POL-NIL-4819",
+      "fullName": "Inspector R. Vijayan",
+      "department": "Tamil Nadu Police - Tourist Safety Wing"
+    },
+    "actionCategory": "SOS_TRIAGE_ASSIGNMENT",
+    "actionDescription": "Assigned SOS-2026-NILGIRIS-0091 to self and updated status to INVESTIGATING",
+    "targetResource": {
+      "collectionName": "sos_management",
+      "documentId": "6650c501e4b02a1b9c8d00d1",
+      "businessKey": "SOS-2026-NILGIRIS-0091"
+    },
+    "requestOrigin": {
+      "ipAddress": "10.42.12.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) TouristSafetyAdminPortal/2.4",
+      "locationTerminal": "Pykara Rural Police Control Terminal"
+    },
+    "status": "SUCCESS",
+    "timestamp": { "$date": "2026-07-12T11:24:10.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650ca01e4b02a1b9c8d0122" },
+    "logId": "ACT-LOG-2026-07-0092",
+    "officer": {
+      "officerObjectId": { "$oid": "6650c101e4b02a1b9c8d0092" },
+      "officerId": "TN-DIS-NIL-2204",
+      "fullName": "K. Meenakshi Sundaram",
+      "department": "Nilgiris District Disaster Management Authority"
+    },
+    "actionCategory": "GEOFENCE_ZONE_ACTIVATION",
+    "actionDescription": "Drawn and activated new RED_DANGER landslide hazard geofence zone ZONE-NILGIRIS-RED-001 at Pykara Ghat Road",
+    "targetResource": {
+      "collectionName": "geofence_zones",
+      "documentId": "6650c301e4b02a1b9c8d00b1",
+      "businessKey": "ZONE-NILGIRIS-RED-001"
+    },
+    "requestOrigin": {
+      "ipAddress": "10.42.10.4",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) TouristSafetyAdminPortal/2.4",
+      "locationTerminal": "Ooty Collectorate Central Disaster Console"
+    },
+    "status": "SUCCESS",
+    "timestamp": { "$date": "2026-07-12T06:15:00.000Z" }
+  }
+]

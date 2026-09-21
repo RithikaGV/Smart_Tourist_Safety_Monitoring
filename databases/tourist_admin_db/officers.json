@@ -1,0 +1,64 @@
+[
+  {
+    "_id": { "$oid": "6650c101e4b02a1b9c8d0091" },
+    "officerId": "TN-POL-NIL-4819",
+    "fullName": "Inspector R. Vijayan",
+    "department": "Tamil Nadu Police - Tourist Safety Wing",
+    "designation": "Station House Officer / Patrol Lead",
+    "badgeNumber": "SH-7721",
+    "email": "vijayan.police.dummy@tn.gov.in",
+    "passwordHash": "$2b$12$k8zM4w9f1x8v7a6z5y4x3w2u1t0s9r8q7p6o5n4m3l2k1j0i.mockhash",
+    "phone": "+91-9445012345",
+    "profilePictureUrl": "https://storage.example.com/officer-avatars/officer_vijayan.jpg",
+    "assignedJurisdiction": {
+      "district": "Nilgiris",
+      "taluk": "Udhagamandalam & Pykara Sector",
+      "stationAddress": "Pykara Rural Police Station, NH 181, Ooty"
+    },
+    "currentDutyStatus": "ON_DUTY",
+    "lastKnownCoordinates": {
+      "type": "Point",
+      "coordinates": [76.602, 11.456]
+    },
+    "rolePermissions": [
+      "SOS_RESPONDER",
+      "EFIR_INVESTIGATOR",
+      "ZONE_MANAGEMENT",
+      "AI_ALERT_REVIEWER",
+      "INVESTIGATIVE_OVERRIDE_APPLICANT"
+    ],
+    "isActive": true,
+    "lastLoginAt": { "$date": "2026-07-12T07:00:00.000Z" },
+    "createdAt": { "$date": "2025-01-10T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c101e4b02a1b9c8d0092" },
+    "officerId": "TN-DIS-NIL-2204",
+    "fullName": "K. Meenakshi Sundaram",
+    "department": "Nilgiris District Disaster Management Authority",
+    "designation": "Disaster Response Coordinator",
+    "badgeNumber": "NDDMA-042",
+    "email": "meenakshi.disaster.dummy@tn.gov.in",
+    "passwordHash": "$2b$12$l9aN5x0g2y9w8b7a6z5y4x3w2u1t0s9r8q7p6o5n4m3l2k1j.mockhash",
+    "phone": "+91-9445098765",
+    "profilePictureUrl": "https://storage.example.com/officer-avatars/officer_meenakshi.jpg",
+    "assignedJurisdiction": {
+      "district": "Nilgiris",
+      "taluk": "District Headquarters Control Room, Ooty",
+      "stationAddress": "Collectorate Complex, Ooty"
+    },
+    "currentDutyStatus": "ON_DUTY",
+    "lastKnownCoordinates": {
+      "type": "Point",
+      "coordinates": [76.703, 11.411]
+    },
+    "rolePermissions": [
+      "ZONE_MANAGEMENT",
+      "HEATMAP_MONITOR",
+      "DISASTER_BROADCAST"
+    ],
+    "isActive": true,
+    "lastLoginAt": { "$date": "2026-07-12T08:00:00.000Z" },
+    "createdAt": { "$date": "2025-02-15T11:00:00.000Z" }
+  }
+]

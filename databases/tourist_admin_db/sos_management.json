@@ -1,0 +1,95 @@
+[
+  {
+    "_id": { "$oid": "6650c501e4b02a1b9c8d00d1" },
+    "sosId": "SOS-2026-NILGIRIS-0091",
+    "linkedUserDbSosId": { "$oid": "6650b501e4b02a1b9c8d0041" },
+    "touristId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "touristDetailsSnapshot": {
+      "fullName": "Aarav Sharma",
+      "mobileNumber": "+91-9800012345",
+      "nationality": "Indian",
+      "kycId": "KYC-IND-2026-00481",
+      "blockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032",
+      "bloodGroup": "O+",
+      "primaryEmergencyContact": "+91-9800012346 (Neha Sharma - Spouse)"
+    },
+    "requestDateTime": { "$date": "2026-07-12T11:22:00.000Z" },
+    "locationTracking": {
+      "initialCoordinates": {
+        "type": "Point",
+        "coordinates": [76.5412, 11.5541]
+      },
+      "currentCoordinates": {
+        "type": "Point",
+        "coordinates": [76.5418, 11.5545]
+      },
+      "landmark": "Near Mudumalai Forest Buffer Zone 4, Ooty-Gudalur Road",
+      "lastPingTimestamp": { "$date": "2026-07-12T11:28:40.000Z" }
+    },
+    "triggerChannel": "BLUETOOTH_MESH_RELAY",
+    "status": "INVESTIGATING",
+    "assignedOfficer": {
+      "officerObjectId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+      "officerId": "TN-POL-NIL-4819",
+      "name": "Inspector R. Vijayan",
+      "assignedAt": { "$date": "2026-07-12T11:24:10.000Z" }
+    },
+    "mediaEvidenceReceived": {
+      "hasAudio": true,
+      "audioUrl": "https://storage.example.com/sos-evidence/SOS_0091_audio.aac",
+      "hasVideo": true,
+      "videoUrl": "https://storage.example.com/sos-evidence/SOS_0091_video_10s.mp4"
+    },
+    "investigationNotes": [
+      {
+        "note": "Distress signal relayed through tourist kiosk mesh node. Tourist vehicle stranded near mudslide.",
+        "recordedBy": "Inspector R. Vijayan",
+        "timestamp": { "$date": "2026-07-12T11:25:30.000Z" }
+      }
+    ],
+    "blockchainIncidentHash": "0x8f4b52c0a9b3e1d247f123456789abcdef0123456789abcdef0123456789abcd",
+    "createdAt": { "$date": "2026-07-12T11:22:15.000Z" },
+    "updatedAt": { "$date": "2026-07-12T11:25:30.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c501e4b02a1b9c8d00d2" },
+    "sosId": "SOS-2026-NILGIRIS-0092",
+    "linkedUserDbSosId": { "$oid": "6650b501e4b02a1b9c8d0042" },
+    "touristId": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "touristDetailsSnapshot": {
+      "fullName": "Elena Rostova",
+      "mobileNumber": "+44-7700900123",
+      "nationality": "British",
+      "kycId": "KYC-INT-2026-00924",
+      "blockchainId": "DID:TOURIST:ETH:0x3A2b8c9d0E1F2a3B4c5D6e7F8a9B0c1D2e3F4a5B",
+      "bloodGroup": "A-",
+      "primaryEmergencyContact": "+44-7700900555 (David Smith - Friend)"
+    },
+    "requestDateTime": { "$date": "2026-07-12T11:32:00.000Z" },
+    "locationTracking": {
+      "initialCoordinates": {
+        "type": "Point",
+        "coordinates": [76.735, 11.403]
+      },
+      "currentCoordinates": {
+        "type": "Point",
+        "coordinates": [76.735, 11.403]
+      },
+      "landmark": "Doddabetta Trail Marker 3",
+      "lastPingTimestamp": { "$date": "2026-07-12T11:32:00.000Z" }
+    },
+    "triggerChannel": "CELLULAR_ONLINE",
+    "status": "PENDING",
+    "assignedOfficer": null,
+    "mediaEvidenceReceived": {
+      "hasAudio": false,
+      "audioUrl": null,
+      "hasVideo": false,
+      "videoUrl": null
+    },
+    "investigationNotes": [],
+    "blockchainIncidentHash": "0x1234abcd5678ef901234abcd5678ef901234abcd5678ef901234abcd5678ef90",
+    "createdAt": { "$date": "2026-07-12T11:32:05.000Z" },
+    "updatedAt": { "$date": "2026-07-12T11:32:05.000Z" }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "_id": { "$oid": "6650b701e4b02a1b9c8d0061" },
+    "advisoryCode": "ADV-OOTY-2026-081",
+    "targetCity": "Ooty",
+    "targetDistrict": "Nilgiris",
+    "advisoryType": "HEAVY_RAINFALL_AND_LANDSLIDE",
+    "severity": "CRITICAL",
+    "title": "Red Alert: Heavy Rainfall & Landslide Warning at Pykara Ghat Road",
+    "summary": "Nilgiris District Administration has temporarily closed Pykara Ghat stretch due to mudslides and heavy continuous rainfall. Use alternate diversion route via Gudalur Main bypass.",
+    "affectedGeoPolygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.595, 11.450],
+          [76.615, 11.450],
+          [76.615, 11.465],
+          [76.595, 11.465],
+          [76.595, 11.450]
+        ]
+      ]
+    },
+    "recommendedActions": [
+      "Avoid traveling to waterfall slopes after 04:00 PM",
+      "Adhere to police barricades and checkpoints",
+      "Keep vehicle headlights on in dense mist"
+    ],
+    "issuedByAuthority": "Nilgiris District Disaster Management Authority (NDDMA)",
+    "validFrom": { "$date": "2026-07-12T06:00:00.000Z" },
+    "validUntil": { "$date": "2026-07-14T18:00:00.000Z" },
+    "isActive": true
+  },
+  {
+    "_id": { "$oid": "6650b701e4b02a1b9c8d0062" },
+    "advisoryCode": "ADV-OOTY-2026-082",
+    "targetCity": "Ooty",
+    "targetDistrict": "Nilgiris",
+    "advisoryType": "WILDFIRE_RESTRICTION",
+    "severity": "MODERATE",
+    "title": "Restricted Access in Dry Deciduous Buffer of Mudumalai",
+    "summary": "Trekking prohibited in peripheral forest sectors due to seasonal dry brush and animal movement corridors.",
+    "affectedGeoPolygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.520, 11.550],
+          [76.550, 11.550],
+          [76.550, 11.575],
+          [76.520, 11.575],
+          [76.520, 11.550]
+        ]
+      ]
+    },
+    "recommendedActions": [
+      "No unauthorized walking trails off safari tracks",
+      "Smoking and open campfires are strictly penalized"
+    ],
+    "issuedByAuthority": "Tamil Nadu Forest Department",
+    "validFrom": { "$date": "2026-07-10T00:00:00.000Z" },
+    "validUntil": { "$date": "2026-07-20T23:59:59.000Z" },
+    "isActive": true
+  }
+]
