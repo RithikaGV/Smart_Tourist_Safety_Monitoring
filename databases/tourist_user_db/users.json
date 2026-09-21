@@ -1,0 +1,142 @@
+[
+  {
+    "_id": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "auth": {
+      "email": "aarav.sharma.dummy@example.com",
+      "passwordHash": "$2b$12$e8xL4v6e9w8u7z6y5x4w3u2t1s0r9q8p7o6n5m4l3k2j1i0h.mockhash",
+      "twoFactorEnabled": true,
+      "twoFactorMethod": "SMS_OTP",
+      "securityQuestion": {
+        "question": "What was the name of your first school?",
+        "answerHash": "$2b$12$mockAnswerHashSchool123"
+      },
+      "biometricEnabled": true
+    },
+    "personalInfo": {
+      "fullName": "Aarav Sharma",
+      "mobileNumber": "+91-9800012345",
+      "dob": "1994-06-15",
+      "gender": "Male",
+      "nationality": "Indian",
+      "preferredLanguage": "English",
+      "profilePictureUrl": "https://storage.example.com/tourist-profiles/aarav_s.jpg"
+    },
+    "kyc": {
+      "kycId": "KYC-IND-2026-00481",
+      "idProofType": "AADHAAR",
+      "idNumberMasked": "XXXXXXXX9481",
+      "idDocumentUrl": "https://storage.example.com/kyc-docs/masked_aadhaar_00481.pdf",
+      "verificationStatus": "VERIFIED",
+      "verifiedAt": { "$date": "2026-07-10T09:30:00.000Z" },
+      "blockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032"
+    },
+    "emergencyContacts": [
+      {
+        "contactId": "EC-01",
+        "name": "Neha Sharma",
+        "relationship": "Spouse",
+        "phoneNumber": "+91-9800012346",
+        "email": "neha.sharma.dummy@example.com",
+        "isPrimary": true
+      },
+      {
+        "contactId": "EC-02",
+        "name": "Rohan Sharma",
+        "relationship": "Brother",
+        "phoneNumber": "+91-9800098765",
+        "email": "rohan.sharma.dummy@example.com",
+        "isPrimary": false
+      }
+    ],
+    "medicalInfo": {
+      "bloodGroup": "O+",
+      "allergies": ["Penicillin", "Pollen"],
+      "existingMedicalConditions": ["Mild Asthma"],
+      "regularMedications": ["Inhaler (Salbutamol) as needed"],
+      "organDonor": true
+    },
+    "permissions": {
+      "locationAccess": "ALWAYS_ALLOW",
+      "cameraAccess": true,
+      "microphoneAccess": true,
+      "notifications": true,
+      "contactsAccess": true,
+      "grantedAt": { "$date": "2026-07-10T09:35:00.000Z" }
+    },
+    "ghostModeSettings": {
+      "ghostModeEnabled": false,
+      "deviceEncryptedStorageOnly": true,
+      "autoSyncOnEmergencySos": true,
+      "allowInvestigativeOverrideWithLegalWarrant": true
+    },
+    "accountStatus": "ACTIVE",
+    "createdAt": { "$date": "2026-07-10T09:25:00.000Z" },
+    "updatedAt": { "$date": "2026-07-12T08:15:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "auth": {
+      "email": "elena.rostova.dummy@example.com",
+      "passwordHash": "$2b$12$f9yM5w7f0x9v8a7z6y5x4w3u2t1s0r9q8p7o6n5m4l3k2j1i.mockhash",
+      "twoFactorEnabled": true,
+      "twoFactorMethod": "EMAIL_OTP",
+      "securityQuestion": {
+        "question": "What is your mother's maiden name?",
+        "answerHash": "$2b$12$mockAnswerMaidenElena"
+      },
+      "biometricEnabled": false
+    },
+    "personalInfo": {
+      "fullName": "Elena Rostova",
+      "mobileNumber": "+44-7700900123",
+      "dob": "1998-11-22",
+      "gender": "Female",
+      "nationality": "British",
+      "preferredLanguage": "English",
+      "profilePictureUrl": "https://storage.example.com/tourist-profiles/elena_r.jpg"
+    },
+    "kyc": {
+      "kycId": "KYC-INT-2026-00924",
+      "idProofType": "PASSPORT",
+      "idNumberMasked": "PXXXXXX882",
+      "idDocumentUrl": "https://storage.example.com/kyc-docs/masked_passport_00924.pdf",
+      "verificationStatus": "VERIFIED",
+      "verifiedAt": { "$date": "2026-07-11T14:10:00.000Z" },
+      "blockchainId": "DID:TOURIST:ETH:0x3A2b8c9d0E1F2a3B4c5D6e7F8a9B0c1D2e3F4a5B"
+    },
+    "emergencyContacts": [
+      {
+        "contactId": "EC-03",
+        "name": "David Smith",
+        "relationship": "Friend",
+        "phoneNumber": "+44-7700900555",
+        "email": "david.smith.dummy@example.com",
+        "isPrimary": true
+      }
+    ],
+    "medicalInfo": {
+      "bloodGroup": "A-",
+      "allergies": ["Peanuts"],
+      "existingMedicalConditions": [],
+      "regularMedications": [],
+      "organDonor": false
+    },
+    "permissions": {
+      "locationAccess": "WHILE_USING_APP",
+      "cameraAccess": true,
+      "microphoneAccess": true,
+      "notifications": true,
+      "contactsAccess": true,
+      "grantedAt": { "$date": "2026-07-11T14:15:00.000Z" }
+    },
+    "ghostModeSettings": {
+      "ghostModeEnabled": true,
+      "deviceEncryptedStorageOnly": true,
+      "autoSyncOnEmergencySos": true,
+      "allowInvestigativeOverrideWithLegalWarrant": true
+    },
+    "accountStatus": "ACTIVE",
+    "createdAt": { "$date": "2026-07-11T14:00:00.000Z" },
+    "updatedAt": { "$date": "2026-07-12T10:00:00.000Z" }
+  }
+]

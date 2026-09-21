@@ -1,0 +1,92 @@
+[
+  {
+    "_id": { "$oid": "6650c401e4b02a1b9c8d00c1" },
+    "gridId": "GRID-NIL-OOTY-001",
+    "district": "Nilgiris",
+    "locationName": "Government Botanical Garden & Charing Cross",
+    "colorCode": "YELLOW",
+    "statusLabel": "CROWDED",
+    "touristDensityCount": 3820,
+    "capacityThresholdMax": 4000,
+    "reportedIncidentsCount": 0,
+    "centerCoordinates": {
+      "type": "Point",
+      "coordinates": [76.7112, 11.4174]
+    },
+    "gridBoundingBox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.705, 11.412],
+          [76.718, 11.412],
+          [76.718, 11.422],
+          [76.705, 11.422],
+          [76.705, 11.412]
+        ]
+      ]
+    },
+    "riskFactors": ["High Footfall", "Traffic Congestion near entrance"],
+    "policePersonnelDeployed": 6,
+    "lastEvaluatedAt": { "$date": "2026-07-12T11:25:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c401e4b02a1b9c8d00c2" },
+    "gridId": "GRID-NIL-OOTY-002",
+    "district": "Nilgiris",
+    "locationName": "Pykara Waterfall Ghat Bridge Sector",
+    "colorCode": "RED",
+    "statusLabel": "DANGER",
+    "touristDensityCount": 24,
+    "capacityThresholdMax": 500,
+    "reportedIncidentsCount": 2,
+    "centerCoordinates": {
+      "type": "Point",
+      "coordinates": [76.6033, 11.4552]
+    },
+    "gridBoundingBox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.598, 11.450],
+          [76.610, 11.450],
+          [76.610, 11.460],
+          [76.598, 11.460],
+          [76.598, 11.450]
+        ]
+      ]
+    },
+    "riskFactors": ["Active Landslide / Road Obstruction", "Active SOS Distress Call", "Heavy Rain Flash Flood"],
+    "policePersonnelDeployed": 8,
+    "lastEvaluatedAt": { "$date": "2026-07-12T11:28:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c401e4b02a1b9c8d00c3" },
+    "gridId": "GRID-NIL-OOTY-003",
+    "district": "Nilgiris",
+    "locationName": "Ooty Lake & Boat House Promenade",
+    "colorCode": "GREEN",
+    "statusLabel": "SAFE",
+    "touristDensityCount": 1180,
+    "capacityThresholdMax": 3000,
+    "reportedIncidentsCount": 0,
+    "centerCoordinates": {
+      "type": "Point",
+      "coordinates": [76.6912, 11.405]
+    },
+    "gridBoundingBox": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [76.685, 11.400],
+          [76.698, 11.400],
+          [76.698, 11.410],
+          [76.685, 11.410],
+          [76.685, 11.400]
+        ]
+      ]
+    },
+    "riskFactors": ["Clear Weather", "Normal Patrol In Position"],
+    "policePersonnelDeployed": 4,
+    "lastEvaluatedAt": { "$date": "2026-07-12T11:25:00.000Z" }
+  }
+]

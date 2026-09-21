@@ -1,0 +1,70 @@
+[
+  {
+    "_id": { "$oid": "6650c901e4b02a1b9c8d0111" },
+    "overrideRequestId": "OVR-2026-NIL-0012",
+    "requestingOfficer": {
+      "officerObjectId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+      "officerId": "TN-POL-NIL-4819",
+      "name": "Inspector R. Vijayan",
+      "department": "Tamil Nadu Police - Tourist Safety Wing"
+    },
+    "targetTouristBlockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032",
+    "legalJustificationType": "ACTIVE_SOS_DISTRESS",
+    "legalAuthorizationDetails": {
+      "statutoryProvision": "Section 91 CrPC / Emergency Life Safety Protocol",
+      "warrantOrCaseNumber": "SOS-DISPATCH-URGENT-2026-0091",
+      "approvingMagistrateOrSuperintendent": "Superintendent of Police, Nilgiris District"
+    },
+    "reasonForOverride": "Tourist triggered One-Touch SOS in dense forest landslide area with zero cellular coverage. Decryption of location trail and medical profile required for search & rescue dispatch.",
+    "unmaskedDataScope": [
+      "FULL_LEGAL_NAME",
+      "EMERGENCY_CONTACTS",
+      "BLOOD_GROUP_AND_ALLERGIES",
+      "LAST_KNOWN_GPS_WAYPOINTS"
+    ],
+    "unmaskedTouristData": {
+      "fullName": "Aarav Sharma",
+      "mobileNumber": "+91-9800012345",
+      "emergencyContact": "Neha Sharma (+91-9800012346)",
+      "medicalDetails": "Blood Group O+, Mild Asthma, Inhaler user"
+    },
+    "auditRecord": {
+      "ipAddress": "10.42.12.8",
+      "stationTerminalId": "TERMINAL-PYKARA-POLICE-02",
+      "auditIntegritySignature": "SHA256:d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8e7"
+    },
+    "status": "AUTHORIZED_AND_EXECUTED",
+    "accessedAt": { "$date": "2026-07-12T11:24:20.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c901e4b02a1b9c8d0112" },
+    "overrideRequestId": "OVR-2026-NIL-0013",
+    "requestingOfficer": {
+      "officerObjectId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+      "officerId": "TN-POL-NIL-4819",
+      "name": "Inspector R. Vijayan",
+      "department": "Tamil Nadu Police - Tourist Safety Wing"
+    },
+    "targetTouristBlockchainId": "DID:TOURIST:ETH:0x9A1b2c3d4E5F6a7B8c9D0e1F2a3B4c5D6e7F8a9B",
+    "legalJustificationType": "SERIOUS_CRIME_INVESTIGATION",
+    "legalAuthorizationDetails": {
+      "statutoryProvision": "Judicial Magistrate Court Order / Forest Trespass Inquiry",
+      "warrantOrCaseNumber": "CR-WRNT-2026-OOTY-0418",
+      "approvingMagistrateOrSuperintendent": "Chief Judicial Magistrate, Udhagamandalam"
+    },
+    "reasonForOverride": "AI anomaly alert flagged persistent midnight border oscillation in prohibited reserve sector.",
+    "unmaskedDataScope": [
+      "FULL_LEGAL_NAME",
+      "PASSPORT_OR_AADHAAR_NUMBER",
+      "REGISTERED_DEVICE_IMEI_HASH"
+    ],
+    "unmaskedTouristData": null,
+    "auditRecord": {
+      "ipAddress": "10.42.12.8",
+      "stationTerminalId": "TERMINAL-PYKARA-POLICE-02",
+      "auditIntegritySignature": "PENDING_JUDICIAL_DIGITAL_SIGNATURE"
+    },
+    "status": "PENDING_JUDICIAL_APPROVAL",
+    "accessedAt": null
+  }
+]

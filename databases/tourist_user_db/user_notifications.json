@@ -1,0 +1,56 @@
+[
+  {
+    "_id": { "$oid": "6650bb01e4b02a1b9c8d00a1" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "notificationType": "GEOFENCE_BREACH_WARNING",
+    "title": "⚠️ Danger! Please turn back.",
+    "message": "You have entered a restricted buffer zone near Mudumalai Forest. Wild elephant movement has been reported in this corridor. Please return to the highway.",
+    "severity": "CRITICAL",
+    "isRead": false,
+    "relatedEntity": {
+      "entityType": "GEOFENCE_ZONE",
+      "entityId": "ZONE-NILGIRIS-RED-001"
+    },
+    "actionButton": {
+      "label": "View Evacuation Route",
+      "routePath": "/dashboard/evacuate"
+    },
+    "createdAt": { "$date": "2026-07-12T11:14:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650bb01e4b02a1b9c8d00a2" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "notificationType": "ROUTE_DEVIATION_ALERT",
+    "title": "Smart Deviation Check",
+    "message": "Are you okay? You have diverted 8 km away from your planned route toward Pykara Lake.",
+    "severity": "WARNING",
+    "isRead": true,
+    "relatedEntity": {
+      "entityType": "TRIP",
+      "entityId": "6650b201e4b02a1b9c8d0011"
+    },
+    "actionButton": {
+      "label": "I am Safe / Report Issue",
+      "routePath": "/trips/safety-prompt"
+    },
+    "createdAt": { "$date": "2026-07-12T11:15:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650bb01e4b02a1b9c8d00a3" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "notificationType": "SOS_DISPATCH_UPDATE",
+    "title": "Police Officer Dispatched",
+    "message": "Inspector R. Vijayan has accepted your SOS distress signal and is en route. Estimated arrival in 12 mins.",
+    "severity": "INFO",
+    "isRead": false,
+    "relatedEntity": {
+      "entityType": "SOS_ALERT",
+      "entityId": "SOS-2026-NILGIRIS-0091"
+    },
+    "actionButton": {
+      "label": "Track Officer Live",
+      "routePath": "/sos/track-responder"
+    },
+    "createdAt": { "$date": "2026-07-12T11:25:00.000Z" }
+  }
+]

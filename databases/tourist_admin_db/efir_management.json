@@ -1,0 +1,89 @@
+[
+  {
+    "_id": { "$oid": "6650c601e4b02a1b9c8d00e1" },
+    "efirNumber": "EFIR-2026-TN-NIL-0042",
+    "linkedUserDbEfirId": { "$oid": "6650b601e4b02a1b9c8d0051" },
+    "touristId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "touristDetailsSnapshot": {
+      "fullName": "Aarav Sharma",
+      "mobileNumber": "+91-9800012345",
+      "email": "aarav.sharma.dummy@example.com",
+      "kycId": "KYC-IND-2026-00481",
+      "idProofType": "AADHAAR",
+      "blockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032"
+    },
+    "requestDateTime": { "$date": "2026-07-12T11:00:00.000Z" },
+    "incidentSummary": {
+      "category": "THEFT_LOSS",
+      "subCategory": "Bag Snatching / Stolen Belongings",
+      "incidentTime": { "$date": "2026-07-12T10:45:00.000Z" },
+      "locationName": "Pykara Boat House Parking Area",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [76.6031, 11.455]
+      },
+      "description": "Tourist backpack containing camera lens and wallet was stolen from rental vehicle while parked outside ticket kiosk."
+    },
+    "efirDocumentCopy": {
+      "generatedPdfUrl": "https://storage.example.com/efir-copies/EFIR_2026_TN_NIL_0042_official.pdf",
+      "digitalSignatureHash": "SHA256:4a8b9c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b"
+    },
+    "status": "INVESTIGATING",
+    "assignedOfficer": {
+      "officerObjectId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+      "officerId": "TN-POL-NIL-4819",
+      "name": "Inspector R. Vijayan",
+      "assignedAt": { "$date": "2026-07-12T11:15:00.000Z" }
+    },
+    "officialPoliceFirRegistration": {
+      "isOfficiallyRegistered": true,
+      "statePoliceFirNo": "FIR-2026/OOTY-RURAL/00318",
+      "ipcSections": ["IPC 379 - Theft"],
+      "policeStation": "Pykara Rural Police Station, Nilgiris"
+    },
+    "officerRemarks": "CCTV camera #4 footage retrieved from parking ticket counter. Suspect identified; team dispatched for recovery.",
+    "createdAt": { "$date": "2026-07-12T11:00:15.000Z" },
+    "updatedAt": { "$date": "2026-07-12T11:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c601e4b02a1b9c8d00e2" },
+    "efirNumber": "EFIR-2026-TN-NIL-0043",
+    "linkedUserDbEfirId": { "$oid": "6650b601e4b02a1b9c8d0052" },
+    "touristId": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "touristDetailsSnapshot": {
+      "fullName": "Elena Rostova",
+      "mobileNumber": "+44-7700900123",
+      "email": "elena.rostova.dummy@example.com",
+      "kycId": "KYC-INT-2026-00924",
+      "idProofType": "PASSPORT",
+      "blockchainId": "DID:TOURIST:ETH:0x3A2b8c9d0E1F2a3B4c5D6e7F8a9B0c1D2e3F4a5B"
+    },
+    "requestDateTime": { "$date": "2026-07-12T11:34:00.000Z" },
+    "incidentSummary": {
+      "category": "LOST_PROPERTY",
+      "subCategory": "Lost Passport / International ID pouch",
+      "incidentTime": { "$date": "2026-07-12T11:10:00.000Z" },
+      "locationName": "Charing Cross Market Footpath",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [76.704, 11.412]
+      },
+      "description": "Dropped black travel wallet containing UK driving licence and hotel key card during shopping walk."
+    },
+    "efirDocumentCopy": {
+      "generatedPdfUrl": "https://storage.example.com/efir-copies/EFIR_2026_TN_NIL_0043_official.pdf",
+      "digitalSignatureHash": "SHA256:7f6e5d4c3b2a1098fedcba9876543210abcdef9876543210fedcba9876543210"
+    },
+    "status": "PENDING",
+    "assignedOfficer": null,
+    "officialPoliceFirRegistration": {
+      "isOfficiallyRegistered": false,
+      "statePoliceFirNo": null,
+      "ipcSections": [],
+      "policeStation": "Ooty Town Central Station"
+    },
+    "officerRemarks": null,
+    "createdAt": { "$date": "2026-07-12T11:34:05.000Z" },
+    "updatedAt": { "$date": "2026-07-12T11:34:05.000Z" }
+  }
+]

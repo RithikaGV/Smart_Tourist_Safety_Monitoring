@@ -1,0 +1,61 @@
+[
+  {
+    "_id": { "$oid": "6650b401e4b02a1b9c8d0031" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "tripId": { "$oid": "6650b201e4b02a1b9c8d0011" },
+    "currentCoordinates": {
+      "type": "Point",
+      "coordinates": [76.5412, 11.5541]
+    },
+    "locationAccuracyMeters": 4.5,
+    "speedKmh": 18.2,
+    "altitudeMeters": 1020.4,
+    "headingDegrees": 240,
+    "networkStatus": "OFFLINE_MESH",
+    "meshMetadata": {
+      "isMeshRelayed": true,
+      "hopCount": 2,
+      "relayingDeviceId": "MESH-NODE-BLUETOOTH-48F2"
+    },
+    "batteryLevelPercentage": 68,
+    "isGhostModeActive": false,
+    "routeDeviationStatus": {
+      "isDeviated": true,
+      "deviationDistanceKm": 8.2,
+      "deviationAlertSentAt": { "$date": "2026-07-12T11:15:00.000Z" },
+      "userResponseStatus": "NO_RESPONSE",
+      "promptMessage": "Are you okay? You have deviated 8 km into a dense forest route."
+    },
+    "recordedAt": { "$date": "2026-07-12T11:18:22.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650b401e4b02a1b9c8d0032" },
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "tripId": { "$oid": "6650b201e4b02a1b9c8d0012" },
+    "currentCoordinates": {
+      "type": "Point",
+      "coordinates": [76.735, 11.403]
+    },
+    "locationAccuracyMeters": 3.1,
+    "speedKmh": 4.0,
+    "altitudeMeters": 2620.0,
+    "headingDegrees": 95,
+    "networkStatus": "CELLULAR_ONLINE",
+    "meshMetadata": {
+      "isMeshRelayed": false,
+      "hopCount": 0,
+      "relayingDeviceId": null
+    },
+    "batteryLevelPercentage": 91,
+    "isGhostModeActive": true,
+    "ghostModeEncryptedPayload": "AES256GCM:9f8e7d6c5b4a:4f8a9b2c3d1e:mockEncryptedTrailDataBlobForGhostModeOnlyAccessUponSosOverride",
+    "routeDeviationStatus": {
+      "isDeviated": false,
+      "deviationDistanceKm": 0.1,
+      "deviationAlertSentAt": null,
+      "userResponseStatus": "NORMAL",
+      "promptMessage": null
+    },
+    "recordedAt": { "$date": "2026-07-12T11:20:00.000Z" }
+  }
+]

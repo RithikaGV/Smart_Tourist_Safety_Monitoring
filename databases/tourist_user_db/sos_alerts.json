@@ -1,0 +1,90 @@
+[
+  {
+    "_id": { "$oid": "6650b501e4b02a1b9c8d0041" },
+    "sosId": "SOS-2026-NILGIRIS-0091",
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0001" },
+    "tripId": { "$oid": "6650b201e4b02a1b9c8d0011" },
+    "blockchainIncidentHash": "0x8f4b52c0a9b3e1d247f123456789abcdef0123456789abcdef0123456789abcd",
+    "triggerType": "ONE_TOUCH_BUTTON",
+    "triggerSource": "TOURIST_APP",
+    "transmissionProtocol": "BLUETOOTH_WIFI_DIRECT_MESH",
+    "meshRelayHops": [
+      {
+        "hopNumber": 1,
+        "peerDeviceId": "NODE-PEER-ANDROID-9182",
+        "timestamp": { "$date": "2026-07-12T11:22:04.000Z" }
+      },
+      {
+        "hopNumber": 2,
+        "gatewayDeviceId": "TOURIST-INFORMATION-KIOSK-WIFI-04",
+        "timestamp": { "$date": "2026-07-12T11:22:15.000Z" }
+      }
+    ],
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [76.5412, 11.5541]
+    },
+    "locationAddress": "Near Mudumalai Forest Buffer Zone 4, Ooty-Gudalur Road",
+    "mediaEvidence": {
+      "audioRecordingUrl": "https://storage.example.com/sos-evidence/SOS_0091_audio.aac",
+      "videoSnippetUrl": "https://storage.example.com/sos-evidence/SOS_0091_video_10s.mp4",
+      "recordedDurationSeconds": 10
+    },
+    "emergencyContactsNotified": [
+      {
+        "name": "Neha Sharma",
+        "phone": "+91-9800012346",
+        "smsSent": true,
+        "smsStatus": "DELIVERED",
+        "notifiedAt": { "$date": "2026-07-12T11:22:18.000Z" }
+      },
+      {
+        "name": "Rohan Sharma",
+        "phone": "+91-9800098765",
+        "smsSent": true,
+        "smsStatus": "DELIVERED",
+        "notifiedAt": { "$date": "2026-07-12T11:22:18.000Z" }
+      }
+    ],
+    "policeNotified": true,
+    "currentStatus": "INVESTIGATING",
+    "assignedOfficerId": { "$oid": "6650c101e4b02a1b9c8d0091" },
+    "createdAt": { "$date": "2026-07-12T11:22:00.000Z" },
+    "updatedAt": { "$date": "2026-07-12T11:25:30.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650b501e4b02a1b9c8d0042" },
+    "sosId": "SOS-2026-NILGIRIS-0092",
+    "userId": { "$oid": "6650a101e4b02a1b9c8d0002" },
+    "tripId": { "$oid": "6650b201e4b02a1b9c8d0012" },
+    "blockchainIncidentHash": "0x1234abcd5678ef901234abcd5678ef901234abcd5678ef901234abcd5678ef90",
+    "triggerType": "ONE_TOUCH_BUTTON",
+    "triggerSource": "TOURIST_APP",
+    "transmissionProtocol": "CELLULAR_ONLINE",
+    "meshRelayHops": [],
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [76.735, 11.403]
+    },
+    "locationAddress": "Doddabetta Trail Marker 3, Nilgiris",
+    "mediaEvidence": {
+      "audioRecordingUrl": null,
+      "videoSnippetUrl": null,
+      "recordedDurationSeconds": 0
+    },
+    "emergencyContactsNotified": [
+      {
+        "name": "David Smith",
+        "phone": "+44-7700900555",
+        "smsSent": true,
+        "smsStatus": "DELIVERED",
+        "notifiedAt": { "$date": "2026-07-12T11:32:05.000Z" }
+      }
+    ],
+    "policeNotified": true,
+    "currentStatus": "PENDING",
+    "assignedOfficerId": null,
+    "createdAt": { "$date": "2026-07-12T11:32:00.000Z" },
+    "updatedAt": { "$date": "2026-07-12T11:32:05.000Z" }
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "_id": { "$oid": "6650b901e4b02a1b9c8d0081" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "POLICE_STATION",
+    "name": "Ooty Town Police Station & Tourist Assistance Cell",
+    "phoneNumber": "+91-423-2442222",
+    "emergencyHotline": "112",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.7025, 11.4112]
+    },
+    "address": "Commercial Road, Upper Bazaar, Ooty, Tamil Nadu 643001",
+    "is24x7": true,
+    "operatingHours": "24 Hours / 7 Days",
+    "supportedLanguages": ["English", "Tamil", "Hindi", "Malayalam", "Kannada"]
+  },
+  {
+    "_id": { "$oid": "6650b901e4b02a1b9c8d0082" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "HOSPITAL",
+    "name": "Ooty Government Headquarters Hospital & Trauma Center",
+    "phoneNumber": "+91-423-2442212",
+    "emergencyHotline": "108",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.7081, 11.4085]
+    },
+    "address": "Hospital Road, Ooty, Tamil Nadu 643001",
+    "is24x7": true,
+    "operatingHours": "24 Hours / 7 Days",
+    "supportedLanguages": ["English", "Tamil"]
+  },
+  {
+    "_id": { "$oid": "6650b901e4b02a1b9c8d0083" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "FIRE_STATION",
+    "name": "Nilgiris Fire and Rescue Services Station",
+    "phoneNumber": "+91-423-2442200",
+    "emergencyHotline": "101",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.6989, 11.413]
+    },
+    "address": "Near Charing Cross, Ooty, Tamil Nadu 643001",
+    "is24x7": true,
+    "operatingHours": "24 Hours / 7 Days",
+    "supportedLanguages": ["English", "Tamil"]
+  },
+  {
+    "_id": { "$oid": "6650b901e4b02a1b9c8d0084" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "PHARMACY",
+    "name": "Apollo 24x7 Pharmacy & Emergency Meds",
+    "phoneNumber": "+91-423-2445588",
+    "emergencyHotline": "104",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.7042, 11.4121]
+    },
+    "address": "Ettines Road, Opp Bus Stand, Ooty, Tamil Nadu 643001",
+    "is24x7": true,
+    "operatingHours": "24 Hours / 7 Days",
+    "supportedLanguages": ["English", "Tamil", "Hindi"]
+  },
+  {
+    "_id": { "$oid": "6650b901e4b02a1b9c8d0085" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "TOURIST_HELP_CENTER",
+    "name": "Tamil Nadu Tourism Development Corporation (TTDC) Facilitation Centre",
+    "phoneNumber": "+91-423-2443977",
+    "emergencyHotline": "1363",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.7011, 11.4098]
+    },
+    "address": "Wenlock Road, Near Railway Station, Ooty, Tamil Nadu 643001",
+    "is24x7": false,
+    "operatingHours": "08:00 AM - 08:00 PM",
+    "supportedLanguages": ["English", "Tamil", "Hindi", "French"]
+  },
+  {
+    "_id": { "$oid": "6650b901e4b02a1b9c8d0086" },
+    "city": "Ooty",
+    "district": "Nilgiris",
+    "category": "WOMEN_AND_CHILD_HELPLINE",
+    "name": "Tamil Nadu Women's Safety & Anti-Harassment Response Wing",
+    "phoneNumber": "+91-423-2441091",
+    "emergencyHotline": "1091",
+    "location": {
+      "type": "Point",
+      "coordinates": [76.703, 11.411]
+    },
+    "address": "District Police Office Complex, Ooty, Tamil Nadu 643001",
+    "is24x7": true,
+    "operatingHours": "24 Hours / 7 Days",
+    "supportedLanguages": ["English", "Tamil"]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "_id": { "$oid": "6650c201e4b02a1b9c8d00a1" },
+    "district": "Nilgiris",
+    "jurisdictionControlRoom": "Ooty Central Command & Control Center",
+    "metricsSnapshot": {
+      "totalTouristsCount": 18450,
+      "activeTourists": 5020,
+      "liveSosRequestsUnchecked": 1,
+      "liveEfirRequestsUnchecked": 1,
+      "activeDangerZonesCount": 3,
+      "officersOnDutyCount": 42
+    },
+    "incidentStats": {
+      "todaySosCount": 4,
+      "todayEfirCount": 2,
+      "resolvedToday": 3,
+      "pendingInvestigation": 2,
+      "averageResponseTimeMinutes": 6.8,
+      "meshRelayedIncidentsCount": 2
+    },
+    "zoneHealth": {
+      "safeGreenCount": 14,
+      "crowdedYellowCount": 6,
+      "dangerRedCount": 3
+    },
+    "lastCalculatedAt": { "$date": "2026-07-12T11:30:00.000Z" }
+  }
+]

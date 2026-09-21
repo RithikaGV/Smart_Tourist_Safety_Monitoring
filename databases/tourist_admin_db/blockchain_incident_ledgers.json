@@ -1,0 +1,66 @@
+[
+  {
+    "_id": { "$oid": "6650c701e4b02a1b9c8d00f1" },
+    "blockNumber": 1048201,
+    "transactionHash": "0x11223344556677889900aabbccddeeff11223344556677889900aabbccddeeff",
+    "previousBlockHash": "0x00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+    "eventType": "TOURIST_KYC_VERIFIED",
+    "touristBlockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032",
+    "referenceEntity": {
+      "collectionName": "users",
+      "entityId": "6650a101e4b02a1b9c8d0001",
+      "businessKey": "KYC-IND-2026-00481"
+    },
+    "immutablePayloadHash": "SHA256:7b91c890123ef456ab789012cd3456ef78901234567890abcdef1234567890ab",
+    "eventDetails": {
+      "summary": "Tourist onboarding identity proof verified and issued cryptographic trip DID.",
+      "actor": "KYC_VERIFICATION_ORACLE",
+      "timestamp": { "$date": "2026-07-10T09:30:00.000Z" }
+    },
+    "gasUsed": 21000,
+    "blockTimestamp": { "$date": "2026-07-10T09:30:02.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c701e4b02a1b9c8d00f2" },
+    "blockNumber": 1049512,
+    "transactionHash": "0x8f4b52c0a9b3e1d247f123456789abcdef0123456789abcdef0123456789abcd",
+    "previousBlockHash": "0x11223344556677889900aabbccddeeff11223344556677889900aabbccddeeff",
+    "eventType": "SOS_ALERT_TRIGGERED",
+    "touristBlockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032",
+    "referenceEntity": {
+      "collectionName": "sos_management",
+      "entityId": "6650c501e4b02a1b9c8d00d1",
+      "businessKey": "SOS-2026-NILGIRIS-0091"
+    },
+    "immutablePayloadHash": "SHA256:33445566778899aabbccddeeff00112233445566778899aabbccddeeff001122",
+    "eventDetails": {
+      "summary": "One-Touch Emergency SOS broadcasted via Bluetooth Mesh. GPS logged permanently.",
+      "actor": "TOURIST_DEVICE_MESH_GATEWAY",
+      "coordinates": [76.5412, 11.5541],
+      "timestamp": { "$date": "2026-07-12T11:22:00.000Z" }
+    },
+    "gasUsed": 45000,
+    "blockTimestamp": { "$date": "2026-07-12T11:22:05.000Z" }
+  },
+  {
+    "_id": { "$oid": "6650c701e4b02a1b9c8d00f3" },
+    "blockNumber": 1049530,
+    "transactionHash": "0x99887766554433221100ffeeddccbbaa99887766554433221100ffeeddccbbaa",
+    "previousBlockHash": "0x8f4b52c0a9b3e1d247f123456789abcdef0123456789abcdef0123456789abcd",
+    "eventType": "POLICE_RESPONDED_DISPATCHED",
+    "touristBlockchainId": "DID:TOURIST:ETH:0x7F9c21B90382Ab5f0962810C2e7a1D9820fC1032",
+    "referenceEntity": {
+      "collectionName": "sos_management",
+      "entityId": "6650c501e4b02a1b9c8d00d1",
+      "businessKey": "SOS-2026-NILGIRIS-0091"
+    },
+    "immutablePayloadHash": "SHA256:556677889900aabbccddeeff0011223344556677889900aabbccddeeff001122",
+    "eventDetails": {
+      "summary": "Inspector R. Vijayan accepted SOS and initiated field response.",
+      "actor": "OFFICER_TN-POL-NIL-4819",
+      "timestamp": { "$date": "2026-07-12T11:24:10.000Z" }
+    },
+    "gasUsed": 32000,
+    "blockTimestamp": { "$date": "2026-07-12T11:24:15.000Z" }
+  }
+]
